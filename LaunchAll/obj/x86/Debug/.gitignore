@@ -1,0 +1,5 @@
+*.csproj.GenerateResource.Cache
+*.cache
+*.csproj.FileListAbsolute.txt
+*.pdb
+*.resources
