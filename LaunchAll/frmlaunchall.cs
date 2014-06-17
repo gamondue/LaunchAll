@@ -81,6 +81,16 @@ namespace LaunchAll
             gamon.frmAbout f = new gamon.frmAbout();
             f.Visible = false;
             f.ShowDialog();
+
+            try
+            {
+                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1);
+                txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1);
+            }
+            catch { }
+
+            foreach (ListView l in lstvw)
+                l.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
         }
 
         private void btnImporta_Click(object sender, EventArgs e)
@@ -636,7 +646,7 @@ namespace LaunchAll
 
         private void btnCambiaDisco_Click(object sender, EventArgs e)
         {
-            if (txtDisco.Text != "")
+            if (txtDiscoNuovo.Text != "")
             {
                 foreach (TextBox tb in txtDischi)
                 {
@@ -646,17 +656,34 @@ namespace LaunchAll
                     //    dummy[0] = (char)txtDisco.Text[0];
                     //    tb.Text = new string(dummy);
                     //}
-                    tb.Text = txtDisco.Text + ":\\"; 
+                    //tb.Text = txtDiscoNuovo.Text + ":\\"; 
+                    tb.Text = tb.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
+                }
+
+                foreach (ListView lst in lstvw)
+                {
+                    foreach (ListViewItem it in lst.Items)  {
+                        it.Text = it.Text.Replace(txtDiscoVecchio.Text + ":\\", txtDiscoNuovo.Text + ":\\");
+                    }
                 }
             }
         }
 
-        private void txtDisco_TextChanged(object sender, EventArgs e)
+        private void txtDiscoNuovo_TextChanged(object sender, EventArgs e)
         {
-            if (txtDisco.Text.Length > 1)
+            if (txtDiscoNuovo.Text.Length > 1)
             {
                 Console.Beep();
-                txtDisco.Text= txtDisco.Text.Substring(1, 1);
+                txtDiscoNuovo.Text= txtDiscoNuovo.Text.Substring(1, 1);
+            }
+        }
+        
+        private void txtDiscoVecchio_TextChanged(object sender, EventArgs e)
+        {
+            if (txtDiscoVecchio.Text.Length > 1)
+            {
+                Console.Beep();
+                txtDiscoVecchio.Text = txtDiscoVecchio.Text.Substring(1, 1);
             }
         }
 
@@ -681,6 +708,5 @@ namespace LaunchAll
                 //Beep(); 
             }
         }
-
     }
 }

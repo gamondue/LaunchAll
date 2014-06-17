@@ -40,6 +40,14 @@ namespace LaunchAll
             f.ShowDialog();
             txtFileConfigurazione.Text = fileConfigurazioneIniziale;
             ForzaAbilitazioneBottoni(LeggiFile(txtFileConfigurazione.Text, true));
+
+            try
+            {
+                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1);
+                txtDiscoVecchio.Text = txtRootDir.Text.Substring(0, 1);
+            }
+            catch { }
+
         }
 
         private void btnCartellaRoot_Click(object sender, EventArgs e)
@@ -785,28 +793,33 @@ namespace LaunchAll
 
         private void txtDisco_TextChanged(object sender, EventArgs e)
         {
-            if (txtDisco.Text.Length > 1)
+            if (txtDiscoNuovo.Text.Length > 1)
             {
                 Console.Beep();
-                txtDisco.Text = txtDisco.Text.Substring(1, 1);
+                txtDiscoNuovo.Text = txtDiscoNuovo.Text.Substring(1, 1);
             }
         }
 
         private void btnCambiaDisco_Click(object sender, EventArgs e)
         {
-            if (txtRootDir.Text != "" && txtDisco.Text != "")
+            if (txtRootDir.Text != "" && txtDiscoNuovo.Text != "")
             {
                 if (txtRootDir.Text.IndexOf(':') == 1)
                 {
                     char[] dummy = txtRootDir.Text.ToCharArray();
-                    dummy[0] = (char)txtDisco.Text[0];
+                    dummy[0] = (char)txtDiscoNuovo.Text[0];
                     txtRootDir.Text = new string(dummy);
                 }
                 if (txtCartellaCopia.Text.IndexOf(':') == 1)
                 {
                     char[] dummy = txtCartellaCopia.Text.ToCharArray();
-                    dummy[0] = (char)txtDisco.Text[0];
+                    dummy[0] = (char)txtDiscoNuovo.Text[0];
                     txtCartellaCopia.Text = new string(dummy);
+                }
+
+                foreach (ListViewItem it in lstvwFileDaCopiare.Items)
+                {
+                    it.Text = it.Text.Replace(txtDiscoVecchio.Text + ":\\", txtDiscoNuovo.Text + ":\\");
                 }
             }
         }
