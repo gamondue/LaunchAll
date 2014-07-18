@@ -668,7 +668,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 160);
+            this.label9.Location = new System.Drawing.Point(141, 162);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(13, 13);
@@ -678,7 +678,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(5, 160);
+            this.label10.Location = new System.Drawing.Point(96, 162);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 13);
@@ -687,14 +687,14 @@
             // 
             // txtDiscoVecchio
             // 
-            this.txtDiscoVecchio.Location = new System.Drawing.Point(26, 159);
+            this.txtDiscoVecchio.Location = new System.Drawing.Point(117, 159);
             this.txtDiscoVecchio.Name = "txtDiscoVecchio";
             this.txtDiscoVecchio.Size = new System.Drawing.Size(21, 20);
             this.txtDiscoVecchio.TabIndex = 80;
             // 
             // btnCambiaDisco
             // 
-            this.btnCambiaDisco.Location = new System.Drawing.Point(91, 156);
+            this.btnCambiaDisco.Location = new System.Drawing.Point(6, 156);
             this.btnCambiaDisco.Name = "btnCambiaDisco";
             this.btnCambiaDisco.Size = new System.Drawing.Size(88, 25);
             this.btnCambiaDisco.TabIndex = 79;
@@ -704,7 +704,7 @@
             // 
             // txtDiscoNuovo
             // 
-            this.txtDiscoNuovo.Location = new System.Drawing.Point(64, 159);
+            this.txtDiscoNuovo.Location = new System.Drawing.Point(155, 159);
             this.txtDiscoNuovo.Name = "txtDiscoNuovo";
             this.txtDiscoNuovo.Size = new System.Drawing.Size(21, 20);
             this.txtDiscoNuovo.TabIndex = 78;
