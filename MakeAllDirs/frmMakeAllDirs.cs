@@ -840,5 +840,15 @@ namespace LaunchAll
         {
             lstvwFileDaCopiare.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
         }
+
+        private void txtDiscoVecchio_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtEdit.Text = txtDiscoVecchio.Text;
+        }
+
+        private void txtDiscoNuovo_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtEdit.Text = txtDiscoNuovo.Text;
+        }
     }
 }
