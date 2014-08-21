@@ -43,8 +43,8 @@ namespace LaunchAll
 
             try
             {
-                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1);
-                txtDiscoVecchio.Text = txtRootDir.Text.Substring(0, 1);
+                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1) + ":\\";
+                txtDiscoVecchio.Text = txtRootDir.Text.Substring(0, 1) + ":\\";
             }
             catch { }
 

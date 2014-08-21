@@ -229,10 +229,10 @@
             // 
             this.txtEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEdit.Location = new System.Drawing.Point(182, 159);
+            this.txtEdit.Location = new System.Drawing.Point(301, 159);
             this.txtEdit.Name = "txtEdit";
             this.txtEdit.ReadOnly = true;
-            this.txtEdit.Size = new System.Drawing.Size(763, 20);
+            this.txtEdit.Size = new System.Drawing.Size(644, 20);
             this.txtEdit.TabIndex = 52;
             this.txtEdit.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtEdit_MouseDoubleClick);
             // 
@@ -668,7 +668,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(141, 162);
+            this.label9.Location = new System.Drawing.Point(202, 162);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(13, 13);
@@ -689,7 +689,7 @@
             // 
             this.txtDiscoVecchio.Location = new System.Drawing.Point(117, 159);
             this.txtDiscoVecchio.Name = "txtDiscoVecchio";
-            this.txtDiscoVecchio.Size = new System.Drawing.Size(21, 20);
+            this.txtDiscoVecchio.Size = new System.Drawing.Size(80, 20);
             this.txtDiscoVecchio.TabIndex = 80;
             // 
             // btnCambiaDisco
@@ -704,9 +704,9 @@
             // 
             // txtDiscoNuovo
             // 
-            this.txtDiscoNuovo.Location = new System.Drawing.Point(155, 159);
+            this.txtDiscoNuovo.Location = new System.Drawing.Point(216, 159);
             this.txtDiscoNuovo.Name = "txtDiscoNuovo";
-            this.txtDiscoNuovo.Size = new System.Drawing.Size(21, 20);
+            this.txtDiscoNuovo.Size = new System.Drawing.Size(80, 20);
             this.txtDiscoNuovo.TabIndex = 78;
             // 
             // frmMakeAllDirs

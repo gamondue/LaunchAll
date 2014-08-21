@@ -84,8 +84,8 @@ namespace LaunchAll
 
             try
             {
-                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1);
-                txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1);
+                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1) + ":\\";
+                txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1) + ":\\";
             }
             catch { }
 
@@ -663,7 +663,7 @@ namespace LaunchAll
                 foreach (ListView lst in lstvw)
                 {
                     foreach (ListViewItem it in lst.Items)  {
-                        it.Text = it.Text.Replace(txtDiscoVecchio.Text + ":\\", txtDiscoNuovo.Text + ":\\");
+                        it.Text = it.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
                     }
                 }
             }
@@ -671,20 +671,20 @@ namespace LaunchAll
 
         private void txtDiscoNuovo_TextChanged(object sender, EventArgs e)
         {
-            if (txtDiscoNuovo.Text.Length > 1)
-            {
-                Console.Beep();
-                txtDiscoNuovo.Text= txtDiscoNuovo.Text.Substring(1, 1);
-            }
+            //if (txtDiscoNuovo.Text.Length > 1)
+            //{
+            //    Console.Beep();
+            //    txtDiscoNuovo.Text= txtDiscoNuovo.Text.Substring(1, 1);
+            //}
         }
         
         private void txtDiscoVecchio_TextChanged(object sender, EventArgs e)
         {
-            if (txtDiscoVecchio.Text.Length > 1)
-            {
-                Console.Beep();
-                txtDiscoVecchio.Text = txtDiscoVecchio.Text.Substring(1, 1);
-            }
+            //if (txtDiscoVecchio.Text.Length > 1)
+            //{
+            //    Console.Beep();
+            //    txtDiscoVecchio.Text = txtDiscoVecchio.Text.Substring(1, 1);
+            //}
         }
 
         private void frmLaunchAll_Resize(object sender, EventArgs e)

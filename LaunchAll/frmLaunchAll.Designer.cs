@@ -191,12 +191,12 @@
             // 
             // txtFileConfigurazione
             // 
-            this.txtFileConfigurazione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFileConfigurazione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFileConfigurazione.Location = new System.Drawing.Point(9, 34);
             this.txtFileConfigurazione.Name = "txtFileConfigurazione";
             this.txtFileConfigurazione.Size = new System.Drawing.Size(932, 20);
-            this.txtFileConfigurazione.TabIndex = 14;
+            this.txtFileConfigurazione.TabIndex = 0;
             this.txtFileConfigurazione.TextChanged += new System.EventHandler(this.txtFileConfigurazione_TextChanged);
             // 
             // svfilConfigurazione
@@ -209,12 +209,12 @@
             // 
             // txtEdit
             // 
-            this.txtEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEdit.Location = new System.Drawing.Point(188, 63);
+            this.txtEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtEdit.Location = new System.Drawing.Point(270, 63);
             this.txtEdit.Name = "txtEdit";
             this.txtEdit.ReadOnly = true;
-            this.txtEdit.Size = new System.Drawing.Size(754, 20);
+            this.txtEdit.Size = new System.Drawing.Size(672, 20);
             this.txtEdit.TabIndex = 34;
             this.txtEdit.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtEdit_MouseDoubleClick);
             // 
@@ -387,9 +387,9 @@
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer1.Location = new System.Drawing.Point(9, 89);
             this.splitContainer1.Name = "splitContainer1";
             // 
@@ -406,9 +406,9 @@
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer2.Location = new System.Drawing.Point(1, 0);
             this.splitContainer2.Name = "splitContainer2";
             // 
@@ -448,7 +448,7 @@
             this.txtDisco1.Location = new System.Drawing.Point(0, 30);
             this.txtDisco1.Name = "txtDisco1";
             this.txtDisco1.ShortcutsEnabled = false;
-            this.txtDisco1.Size = new System.Drawing.Size(21, 20);
+            this.txtDisco1.Size = new System.Drawing.Size(58, 20);
             this.txtDisco1.TabIndex = 68;
             // 
             // btnConfigura1
@@ -485,20 +485,20 @@
             // 
             // txtCartella1
             // 
-            this.txtCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella1.Location = new System.Drawing.Point(24, 30);
+            this.txtCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCartella1.Location = new System.Drawing.Point(58, 30);
             this.txtCartella1.Name = "txtCartella1";
-            this.txtCartella1.Size = new System.Drawing.Size(200, 20);
+            this.txtCartella1.Size = new System.Drawing.Size(166, 20);
             this.txtCartella1.TabIndex = 60;
             this.txtCartella1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
             // 
             // lstvw1
             // 
-            this.lstvw1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstvw1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstvw1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lstvw1.CheckBoxes = true;
             this.lstvw1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -544,7 +544,7 @@
             // 
             this.txtDisco2.Location = new System.Drawing.Point(0, 30);
             this.txtDisco2.Name = "txtDisco2";
-            this.txtDisco2.Size = new System.Drawing.Size(21, 20);
+            this.txtDisco2.Size = new System.Drawing.Size(58, 20);
             this.txtDisco2.TabIndex = 68;
             // 
             // btnConfigura2
@@ -581,20 +581,20 @@
             // 
             // txtCartella2
             // 
-            this.txtCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella2.Location = new System.Drawing.Point(25, 30);
+            this.txtCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCartella2.Location = new System.Drawing.Point(58, 30);
             this.txtCartella2.Name = "txtCartella2";
-            this.txtCartella2.Size = new System.Drawing.Size(205, 20);
+            this.txtCartella2.Size = new System.Drawing.Size(173, 20);
             this.txtCartella2.TabIndex = 61;
             this.txtCartella2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
             // 
             // lstvw2
             // 
-            this.lstvw2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstvw2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstvw2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lstvw2.CheckBoxes = true;
             this.lstvw2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -638,9 +638,9 @@
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer3.Location = new System.Drawing.Point(0, 1);
             this.splitContainer3.Name = "splitContainer3";
             // 
@@ -679,7 +679,7 @@
             // 
             this.txtDisco3.Location = new System.Drawing.Point(0, 30);
             this.txtDisco3.Name = "txtDisco3";
-            this.txtDisco3.Size = new System.Drawing.Size(21, 20);
+            this.txtDisco3.Size = new System.Drawing.Size(58, 20);
             this.txtDisco3.TabIndex = 69;
             // 
             // btnConfigura3
@@ -707,11 +707,11 @@
             // 
             // txtCartella3
             // 
-            this.txtCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella3.Location = new System.Drawing.Point(24, 30);
+            this.txtCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCartella3.Location = new System.Drawing.Point(59, 30);
             this.txtCartella3.Name = "txtCartella3";
-            this.txtCartella3.Size = new System.Drawing.Size(203, 20);
+            this.txtCartella3.Size = new System.Drawing.Size(168, 20);
             this.txtCartella3.TabIndex = 61;
             this.txtCartella3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
@@ -727,9 +727,9 @@
             // 
             // lstvw3
             // 
-            this.lstvw3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstvw3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstvw3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lstvw3.CheckBoxes = true;
             this.lstvw3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -775,7 +775,7 @@
             // 
             this.txtDisco4.Location = new System.Drawing.Point(0, 30);
             this.txtDisco4.Name = "txtDisco4";
-            this.txtDisco4.Size = new System.Drawing.Size(21, 20);
+            this.txtDisco4.Size = new System.Drawing.Size(58, 20);
             this.txtDisco4.TabIndex = 70;
             // 
             // btnConfigura4
@@ -803,11 +803,11 @@
             // 
             // txtCartella4
             // 
-            this.txtCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella4.Location = new System.Drawing.Point(24, 30);
+            this.txtCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCartella4.Location = new System.Drawing.Point(58, 30);
             this.txtCartella4.Name = "txtCartella4";
-            this.txtCartella4.Size = new System.Drawing.Size(207, 20);
+            this.txtCartella4.Size = new System.Drawing.Size(172, 20);
             this.txtCartella4.TabIndex = 62;
             this.txtCartella4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
@@ -823,9 +823,9 @@
             // 
             // lstvw4
             // 
-            this.lstvw4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstvw4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstvw4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lstvw4.CheckBoxes = true;
             this.lstvw4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -869,10 +869,10 @@
             // 
             // txtDiscoNuovo
             // 
-            this.txtDiscoNuovo.Location = new System.Drawing.Point(161, 63);
+            this.txtDiscoNuovo.Location = new System.Drawing.Point(201, 63);
             this.txtDiscoNuovo.Name = "txtDiscoNuovo";
-            this.txtDiscoNuovo.Size = new System.Drawing.Size(21, 20);
-            this.txtDiscoNuovo.TabIndex = 62;
+            this.txtDiscoNuovo.Size = new System.Drawing.Size(65, 20);
+            this.txtDiscoNuovo.TabIndex = 2;
             this.txtDiscoNuovo.TextChanged += new System.EventHandler(this.txtDiscoNuovo_TextChanged);
             // 
             // btnCambiaDisco
@@ -889,8 +889,8 @@
             // 
             this.txtDiscoVecchio.Location = new System.Drawing.Point(123, 63);
             this.txtDiscoVecchio.Name = "txtDiscoVecchio";
-            this.txtDiscoVecchio.Size = new System.Drawing.Size(21, 20);
-            this.txtDiscoVecchio.TabIndex = 69;
+            this.txtDiscoVecchio.Size = new System.Drawing.Size(65, 20);
+            this.txtDiscoVecchio.TabIndex = 1;
             this.txtDiscoVecchio.TextChanged += new System.EventHandler(this.txtDiscoVecchio_TextChanged);
             // 
             // label1
@@ -906,7 +906,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(148, 65);
+            this.label7.Location = new System.Drawing.Point(188, 65);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(13, 13);
