@@ -115,7 +115,7 @@
             // btnImporta
             // 
             this.btnImporta.Location = new System.Drawing.Point(471, 4);
-            this.btnImporta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnImporta.Margin = new System.Windows.Forms.Padding(4);
             this.btnImporta.Name = "btnImporta";
             this.btnImporta.Size = new System.Drawing.Size(104, 34);
             this.btnImporta.TabIndex = 2;
@@ -127,7 +127,7 @@
             // 
             this.btnEsporta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEsporta.Location = new System.Drawing.Point(324, 4);
-            this.btnEsporta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEsporta.Margin = new System.Windows.Forms.Padding(4);
             this.btnEsporta.Name = "btnEsporta";
             this.btnEsporta.Size = new System.Drawing.Size(140, 34);
             this.btnEsporta.TabIndex = 3;
@@ -141,7 +141,7 @@
             this.btnCreaCartelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCreaCartelle.ForeColor = System.Drawing.Color.White;
             this.btnCreaCartelle.Location = new System.Drawing.Point(1047, 4);
-            this.btnCreaCartelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCreaCartelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnCreaCartelle.Name = "btnCreaCartelle";
             this.btnCreaCartelle.Size = new System.Drawing.Size(104, 34);
             this.btnCreaCartelle.TabIndex = 4;
@@ -156,7 +156,7 @@
             this.btnApriTutti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnApriTutti.ForeColor = System.Drawing.Color.White;
             this.btnApriTutti.Location = new System.Drawing.Point(1155, 4);
-            this.btnApriTutti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApriTutti.Margin = new System.Windows.Forms.Padding(4);
             this.btnApriTutti.Name = "btnApriTutti";
             this.btnApriTutti.Size = new System.Drawing.Size(103, 34);
             this.btnApriTutti.TabIndex = 8;
@@ -167,7 +167,7 @@
             // btnSalva
             // 
             this.btnSalva.Location = new System.Drawing.Point(803, 4);
-            this.btnSalva.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalva.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalva.Name = "btnSalva";
             this.btnSalva.Size = new System.Drawing.Size(104, 34);
             this.btnSalva.TabIndex = 17;
@@ -178,7 +178,7 @@
             // btnApriFileConfigurazione
             // 
             this.btnApriFileConfigurazione.Location = new System.Drawing.Point(913, 4);
-            this.btnApriFileConfigurazione.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApriFileConfigurazione.Margin = new System.Windows.Forms.Padding(4);
             this.btnApriFileConfigurazione.Name = "btnApriFileConfigurazione";
             this.btnApriFileConfigurazione.Size = new System.Drawing.Size(104, 34);
             this.btnApriFileConfigurazione.TabIndex = 16;
@@ -201,7 +201,7 @@
             this.txtFileConfigurazione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFileConfigurazione.Location = new System.Drawing.Point(12, 42);
-            this.txtFileConfigurazione.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFileConfigurazione.Margin = new System.Windows.Forms.Padding(4);
             this.txtFileConfigurazione.Name = "txtFileConfigurazione";
             this.txtFileConfigurazione.Size = new System.Drawing.Size(1241, 22);
             this.txtFileConfigurazione.TabIndex = 0;
@@ -220,7 +220,7 @@
             this.txtEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEdit.Location = new System.Drawing.Point(360, 78);
-            this.txtEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEdit.Margin = new System.Windows.Forms.Padding(4);
             this.txtEdit.Name = "txtEdit";
             this.txtEdit.ReadOnly = true;
             this.txtEdit.Size = new System.Drawing.Size(895, 22);
@@ -231,7 +231,7 @@
             // 
             this.btnTrovaESostituisci.Enabled = false;
             this.btnTrovaESostituisci.Location = new System.Drawing.Point(177, 4);
-            this.btnTrovaESostituisci.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTrovaESostituisci.Margin = new System.Windows.Forms.Padding(4);
             this.btnTrovaESostituisci.Name = "btnTrovaESostituisci";
             this.btnTrovaESostituisci.Size = new System.Drawing.Size(140, 34);
             this.btnTrovaESostituisci.TabIndex = 35;
@@ -242,7 +242,7 @@
             // btnApriFile
             // 
             this.btnApriFile.Location = new System.Drawing.Point(692, 4);
-            this.btnApriFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApriFile.Margin = new System.Windows.Forms.Padding(4);
             this.btnApriFile.Name = "btnApriFile";
             this.btnApriFile.Size = new System.Drawing.Size(104, 34);
             this.btnApriFile.TabIndex = 36;
@@ -258,7 +258,7 @@
             // 
             this.btnApri1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnApri1.Location = new System.Drawing.Point(238, 425);
-            this.btnApri1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApri1.Margin = new System.Windows.Forms.Padding(4);
             this.btnApri1.Name = "btnApri1";
             this.btnApri1.Size = new System.Drawing.Size(60, 25);
             this.btnApri1.TabIndex = 43;
@@ -270,7 +270,7 @@
             // 
             this.btnMeno1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnMeno1.Location = new System.Drawing.Point(39, 425);
-            this.btnMeno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMeno1.Margin = new System.Windows.Forms.Padding(4);
             this.btnMeno1.Name = "btnMeno1";
             this.btnMeno1.Size = new System.Drawing.Size(39, 25);
             this.btnMeno1.TabIndex = 42;
@@ -282,7 +282,7 @@
             // 
             this.btnPiu1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPiu1.Location = new System.Drawing.Point(0, 425);
-            this.btnPiu1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPiu1.Margin = new System.Windows.Forms.Padding(4);
             this.btnPiu1.Name = "btnPiu1";
             this.btnPiu1.Size = new System.Drawing.Size(39, 25);
             this.btnPiu1.TabIndex = 41;
@@ -294,7 +294,7 @@
             // 
             this.btnApri2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnApri2.Location = new System.Drawing.Point(248, 423);
-            this.btnApri2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApri2.Margin = new System.Windows.Forms.Padding(4);
             this.btnApri2.Name = "btnApri2";
             this.btnApri2.Size = new System.Drawing.Size(60, 25);
             this.btnApri2.TabIndex = 46;
@@ -306,7 +306,7 @@
             // 
             this.btnMeno2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnMeno2.Location = new System.Drawing.Point(39, 425);
-            this.btnMeno2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMeno2.Margin = new System.Windows.Forms.Padding(4);
             this.btnMeno2.Name = "btnMeno2";
             this.btnMeno2.Size = new System.Drawing.Size(39, 25);
             this.btnMeno2.TabIndex = 45;
@@ -318,7 +318,7 @@
             // 
             this.btnPiu2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPiu2.Location = new System.Drawing.Point(0, 425);
-            this.btnPiu2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPiu2.Margin = new System.Windows.Forms.Padding(4);
             this.btnPiu2.Name = "btnPiu2";
             this.btnPiu2.Size = new System.Drawing.Size(39, 25);
             this.btnPiu2.TabIndex = 44;
@@ -330,7 +330,7 @@
             // 
             this.btnApri3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnApri3.Location = new System.Drawing.Point(241, 423);
-            this.btnApri3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApri3.Margin = new System.Windows.Forms.Padding(4);
             this.btnApri3.Name = "btnApri3";
             this.btnApri3.Size = new System.Drawing.Size(60, 25);
             this.btnApri3.TabIndex = 49;
@@ -342,7 +342,7 @@
             // 
             this.btnMeno3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnMeno3.Location = new System.Drawing.Point(40, 423);
-            this.btnMeno3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMeno3.Margin = new System.Windows.Forms.Padding(4);
             this.btnMeno3.Name = "btnMeno3";
             this.btnMeno3.Size = new System.Drawing.Size(39, 25);
             this.btnMeno3.TabIndex = 48;
@@ -354,7 +354,7 @@
             // 
             this.btnPiu3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPiu3.Location = new System.Drawing.Point(1, 423);
-            this.btnPiu3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPiu3.Margin = new System.Windows.Forms.Padding(4);
             this.btnPiu3.Name = "btnPiu3";
             this.btnPiu3.Size = new System.Drawing.Size(39, 25);
             this.btnPiu3.TabIndex = 47;
@@ -365,7 +365,7 @@
             // btnNuovo
             // 
             this.btnNuovo.Location = new System.Drawing.Point(581, 4);
-            this.btnNuovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNuovo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuovo.Name = "btnNuovo";
             this.btnNuovo.Size = new System.Drawing.Size(104, 34);
             this.btnNuovo.TabIndex = 50;
@@ -377,7 +377,7 @@
             // 
             this.btnApri4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnApri4.Location = new System.Drawing.Point(252, 423);
-            this.btnApri4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnApri4.Margin = new System.Windows.Forms.Padding(4);
             this.btnApri4.Name = "btnApri4";
             this.btnApri4.Size = new System.Drawing.Size(60, 25);
             this.btnApri4.TabIndex = 56;
@@ -389,7 +389,7 @@
             // 
             this.btnMeno4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnMeno4.Location = new System.Drawing.Point(37, 423);
-            this.btnMeno4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMeno4.Margin = new System.Windows.Forms.Padding(4);
             this.btnMeno4.Name = "btnMeno4";
             this.btnMeno4.Size = new System.Drawing.Size(39, 25);
             this.btnMeno4.TabIndex = 55;
@@ -401,7 +401,7 @@
             // 
             this.btnPiu4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPiu4.Location = new System.Drawing.Point(0, 423);
-            this.btnPiu4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPiu4.Margin = new System.Windows.Forms.Padding(4);
             this.btnPiu4.Name = "btnPiu4";
             this.btnPiu4.Size = new System.Drawing.Size(39, 25);
             this.btnPiu4.TabIndex = 54;
@@ -415,7 +415,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer1.Location = new System.Drawing.Point(12, 110);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -436,7 +436,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer2.Location = new System.Drawing.Point(1, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -474,7 +474,7 @@
             // txtDisco1
             // 
             this.txtDisco1.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDisco1.Margin = new System.Windows.Forms.Padding(4);
             this.txtDisco1.Name = "txtDisco1";
             this.txtDisco1.ShortcutsEnabled = false;
             this.txtDisco1.Size = new System.Drawing.Size(76, 22);
@@ -485,7 +485,7 @@
             this.btnConfigura1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnConfigura1.Enabled = false;
             this.btnConfigura1.Location = new System.Drawing.Point(150, 0);
-            this.btnConfigura1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfigura1.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfigura1.Name = "btnConfigura1";
             this.btnConfigura1.Size = new System.Drawing.Size(93, 34);
             this.btnConfigura1.TabIndex = 63;
@@ -496,8 +496,8 @@
             // btnCartella1
             // 
             this.btnCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella1.Location = new System.Drawing.Point(251, 0);
-            this.btnCartella1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCartella1.Location = new System.Drawing.Point(248, 0);
+            this.btnCartella1.Margin = new System.Windows.Forms.Padding(4);
             this.btnCartella1.Name = "btnCartella1";
             this.btnCartella1.Size = new System.Drawing.Size(49, 34);
             this.btnCartella1.TabIndex = 62;
@@ -520,7 +520,7 @@
             this.txtCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCartella1.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCartella1.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella1.Name = "txtCartella1";
             this.txtCartella1.Size = new System.Drawing.Size(219, 22);
             this.txtCartella1.TabIndex = 60;
@@ -537,7 +537,7 @@
             this.lstvw1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader5});
             this.lstvw1.Location = new System.Drawing.Point(0, 69);
-            this.lstvw1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstvw1.Margin = new System.Windows.Forms.Padding(4);
             this.lstvw1.Name = "lstvw1";
             this.lstvw1.Size = new System.Drawing.Size(296, 349);
             this.lstvw1.TabIndex = 59;
@@ -556,7 +556,7 @@
             // 
             this.btnDeCheckAll1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDeCheckAll1.Location = new System.Drawing.Point(77, 425);
-            this.btnDeCheckAll1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeCheckAll1.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeCheckAll1.Name = "btnDeCheckAll1";
             this.btnDeCheckAll1.Size = new System.Drawing.Size(39, 25);
             this.btnDeCheckAll1.TabIndex = 67;
@@ -568,7 +568,7 @@
             // 
             this.btnCheckAll1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCheckAll1.Location = new System.Drawing.Point(117, 425);
-            this.btnCheckAll1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckAll1.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckAll1.Name = "btnCheckAll1";
             this.btnCheckAll1.Size = new System.Drawing.Size(39, 25);
             this.btnCheckAll1.TabIndex = 66;
@@ -579,7 +579,7 @@
             // txtDisco2
             // 
             this.txtDisco2.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDisco2.Margin = new System.Windows.Forms.Padding(4);
             this.txtDisco2.Name = "txtDisco2";
             this.txtDisco2.Size = new System.Drawing.Size(76, 22);
             this.txtDisco2.TabIndex = 68;
@@ -589,7 +589,7 @@
             this.btnConfigura2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnConfigura2.Enabled = false;
             this.btnConfigura2.Location = new System.Drawing.Point(156, 0);
-            this.btnConfigura2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfigura2.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfigura2.Name = "btnConfigura2";
             this.btnConfigura2.Size = new System.Drawing.Size(93, 34);
             this.btnConfigura2.TabIndex = 64;
@@ -600,8 +600,8 @@
             // btnCartella2
             // 
             this.btnCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella2.Location = new System.Drawing.Point(259, 1);
-            this.btnCartella2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCartella2.Location = new System.Drawing.Point(258, 1);
+            this.btnCartella2.Margin = new System.Windows.Forms.Padding(4);
             this.btnCartella2.Name = "btnCartella2";
             this.btnCartella2.Size = new System.Drawing.Size(49, 33);
             this.btnCartella2.TabIndex = 63;
@@ -624,7 +624,7 @@
             this.txtCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCartella2.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCartella2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella2.Name = "txtCartella2";
             this.txtCartella2.Size = new System.Drawing.Size(229, 22);
             this.txtCartella2.TabIndex = 61;
@@ -641,7 +641,7 @@
             this.lstvw2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader6});
             this.lstvw2.Location = new System.Drawing.Point(0, 69);
-            this.lstvw2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstvw2.Margin = new System.Windows.Forms.Padding(4);
             this.lstvw2.Name = "lstvw2";
             this.lstvw2.Size = new System.Drawing.Size(305, 349);
             this.lstvw2.TabIndex = 60;
@@ -660,7 +660,7 @@
             // 
             this.btnDeCheckAll2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDeCheckAll2.Location = new System.Drawing.Point(77, 425);
-            this.btnDeCheckAll2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeCheckAll2.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeCheckAll2.Name = "btnDeCheckAll2";
             this.btnDeCheckAll2.Size = new System.Drawing.Size(39, 25);
             this.btnDeCheckAll2.TabIndex = 67;
@@ -672,7 +672,7 @@
             // 
             this.btnCheckAll2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCheckAll2.Location = new System.Drawing.Point(117, 425);
-            this.btnCheckAll2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckAll2.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckAll2.Name = "btnCheckAll2";
             this.btnCheckAll2.Size = new System.Drawing.Size(39, 25);
             this.btnCheckAll2.TabIndex = 66;
@@ -686,7 +686,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer3.Location = new System.Drawing.Point(0, 1);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer3.Name = "splitContainer3";
             // 
             // splitContainer3.Panel1
@@ -724,7 +724,7 @@
             // txtDisco3
             // 
             this.txtDisco3.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDisco3.Margin = new System.Windows.Forms.Padding(4);
             this.txtDisco3.Name = "txtDisco3";
             this.txtDisco3.Size = new System.Drawing.Size(76, 22);
             this.txtDisco3.TabIndex = 69;
@@ -734,7 +734,7 @@
             this.btnConfigura3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnConfigura3.Enabled = false;
             this.btnConfigura3.Location = new System.Drawing.Point(153, 0);
-            this.btnConfigura3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfigura3.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfigura3.Name = "btnConfigura3";
             this.btnConfigura3.Size = new System.Drawing.Size(93, 34);
             this.btnConfigura3.TabIndex = 63;
@@ -745,8 +745,8 @@
             // btnCartella3
             // 
             this.btnCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella3.Location = new System.Drawing.Point(253, 0);
-            this.btnCartella3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCartella3.Location = new System.Drawing.Point(254, 0);
+            this.btnCartella3.Margin = new System.Windows.Forms.Padding(4);
             this.btnCartella3.Name = "btnCartella3";
             this.btnCartella3.Size = new System.Drawing.Size(49, 34);
             this.btnCartella3.TabIndex = 62;
@@ -759,7 +759,7 @@
             this.txtCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCartella3.Location = new System.Drawing.Point(79, 37);
-            this.txtCartella3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCartella3.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella3.Name = "txtCartella3";
             this.txtCartella3.Size = new System.Drawing.Size(223, 22);
             this.txtCartella3.TabIndex = 61;
@@ -786,7 +786,7 @@
             this.lstvw3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader7});
             this.lstvw3.Location = new System.Drawing.Point(0, 68);
-            this.lstvw3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstvw3.Margin = new System.Windows.Forms.Padding(4);
             this.lstvw3.Name = "lstvw3";
             this.lstvw3.Size = new System.Drawing.Size(301, 349);
             this.lstvw3.TabIndex = 59;
@@ -805,7 +805,7 @@
             // 
             this.btnDeCheckAll3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDeCheckAll3.Location = new System.Drawing.Point(79, 423);
-            this.btnDeCheckAll3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeCheckAll3.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeCheckAll3.Name = "btnDeCheckAll3";
             this.btnDeCheckAll3.Size = new System.Drawing.Size(39, 25);
             this.btnDeCheckAll3.TabIndex = 67;
@@ -817,7 +817,7 @@
             // 
             this.btnCheckAll3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCheckAll3.Location = new System.Drawing.Point(117, 423);
-            this.btnCheckAll3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckAll3.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckAll3.Name = "btnCheckAll3";
             this.btnCheckAll3.Size = new System.Drawing.Size(39, 25);
             this.btnCheckAll3.TabIndex = 66;
@@ -828,7 +828,7 @@
             // txtDisco4
             // 
             this.txtDisco4.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDisco4.Margin = new System.Windows.Forms.Padding(4);
             this.txtDisco4.Name = "txtDisco4";
             this.txtDisco4.Size = new System.Drawing.Size(76, 22);
             this.txtDisco4.TabIndex = 70;
@@ -838,7 +838,7 @@
             this.btnConfigura4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnConfigura4.Enabled = false;
             this.btnConfigura4.Location = new System.Drawing.Point(164, 0);
-            this.btnConfigura4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfigura4.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfigura4.Name = "btnConfigura4";
             this.btnConfigura4.Size = new System.Drawing.Size(93, 34);
             this.btnConfigura4.TabIndex = 64;
@@ -849,8 +849,8 @@
             // btnCartella4
             // 
             this.btnCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella4.Location = new System.Drawing.Point(261, 0);
-            this.btnCartella4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCartella4.Location = new System.Drawing.Point(259, 0);
+            this.btnCartella4.Margin = new System.Windows.Forms.Padding(4);
             this.btnCartella4.Name = "btnCartella4";
             this.btnCartella4.Size = new System.Drawing.Size(49, 34);
             this.btnCartella4.TabIndex = 63;
@@ -862,8 +862,8 @@
             // 
             this.txtCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella4.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCartella4.Location = new System.Drawing.Point(78, 37);
+            this.txtCartella4.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella4.Name = "txtCartella4";
             this.txtCartella4.Size = new System.Drawing.Size(229, 22);
             this.txtCartella4.TabIndex = 62;
@@ -890,7 +890,7 @@
             this.lstvw4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader8});
             this.lstvw4.Location = new System.Drawing.Point(0, 68);
-            this.lstvw4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstvw4.Margin = new System.Windows.Forms.Padding(4);
             this.lstvw4.Name = "lstvw4";
             this.lstvw4.Size = new System.Drawing.Size(308, 349);
             this.lstvw4.TabIndex = 60;
@@ -909,7 +909,7 @@
             // 
             this.btnDeCheckAll4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDeCheckAll4.Location = new System.Drawing.Point(77, 423);
-            this.btnDeCheckAll4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeCheckAll4.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeCheckAll4.Name = "btnDeCheckAll4";
             this.btnDeCheckAll4.Size = new System.Drawing.Size(39, 25);
             this.btnDeCheckAll4.TabIndex = 67;
@@ -921,7 +921,7 @@
             // 
             this.btnCheckAll4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCheckAll4.Location = new System.Drawing.Point(116, 423);
-            this.btnCheckAll4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckAll4.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckAll4.Name = "btnCheckAll4";
             this.btnCheckAll4.Size = new System.Drawing.Size(39, 25);
             this.btnCheckAll4.TabIndex = 66;
@@ -932,7 +932,7 @@
             // txtDiscoNuovo
             // 
             this.txtDiscoNuovo.Location = new System.Drawing.Point(268, 78);
-            this.txtDiscoNuovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiscoNuovo.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiscoNuovo.Name = "txtDiscoNuovo";
             this.txtDiscoNuovo.Size = new System.Drawing.Size(85, 22);
             this.txtDiscoNuovo.TabIndex = 2;
@@ -942,7 +942,7 @@
             // btnCambiaDisco
             // 
             this.btnCambiaDisco.Location = new System.Drawing.Point(12, 74);
-            this.btnCambiaDisco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCambiaDisco.Margin = new System.Windows.Forms.Padding(4);
             this.btnCambiaDisco.Name = "btnCambiaDisco";
             this.btnCambiaDisco.Size = new System.Drawing.Size(117, 31);
             this.btnCambiaDisco.TabIndex = 68;
@@ -953,7 +953,7 @@
             // txtDiscoVecchio
             // 
             this.txtDiscoVecchio.Location = new System.Drawing.Point(164, 78);
-            this.txtDiscoVecchio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiscoVecchio.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiscoVecchio.Name = "txtDiscoVecchio";
             this.txtDiscoVecchio.Size = new System.Drawing.Size(85, 22);
             this.txtDiscoVecchio.TabIndex = 1;
@@ -1003,7 +1003,7 @@
             this.Controls.Add(this.btnEsporta);
             this.Controls.Add(this.btnImporta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLaunchAll";
             this.Text = "LaunchAll: apre file da più cartelle";
             this.Load += new System.EventHandler(this.frmLaunchAll_Load);
