@@ -189,7 +189,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 22);
+            this.label4.Location = new System.Drawing.Point(11, 22);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 17);
@@ -200,7 +200,7 @@
             // 
             this.txtFileConfigurazione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFileConfigurazione.Location = new System.Drawing.Point(12, 42);
+            this.txtFileConfigurazione.Location = new System.Drawing.Point(13, 42);
             this.txtFileConfigurazione.Margin = new System.Windows.Forms.Padding(4);
             this.txtFileConfigurazione.Name = "txtFileConfigurazione";
             this.txtFileConfigurazione.Size = new System.Drawing.Size(1241, 22);
@@ -612,7 +612,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(-4, 18);
+            this.label3.Location = new System.Drawing.Point(0, 18);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 17);
@@ -769,7 +769,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(-4, 17);
+            this.label5.Location = new System.Drawing.Point(0, 17);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 17);
@@ -873,7 +873,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(-4, 16);
+            this.label6.Location = new System.Drawing.Point(0, 16);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 17);

@@ -617,14 +617,40 @@ namespace LaunchAll
 
         private void txtEdit_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            try
-            {
-                System.Diagnostics.Process.Start(txtEdit.Text);
+            string robaDaAprire = txtEdit.Text;
+            if (robaDaAprire.Substring(0, 1) == ".")
+            {   // se c'è il punto (la cartella è relativa)
+                // toglie a destra il nome del file
+                int posizioneSlash = robaDaAprire.LastIndexOf("\\");
+                robaDaAprire = robaDaAprire.Substring(0, posizioneSlash);
+                // toglie il punto 
+                robaDaAprire = robaDaAprire.Substring(2);
+                // aggiunge il disco, provando con tutti i dischi 
+                for (int i = 0; i < 4; i++)
+                {
+                    try
+                    {
+                        System.Diagnostics.Process.Start(txtDischi[i].Text + txtCartelle[i].Text + "\\" + robaDaAprire);
+                        return;
+                    }
+                    catch (Exception er)
+                    {
+                    }
+                }
+                // se arrivo qui ho fatto 4 errori
+                MessageBox.Show("Errore nell'aprire la cartella '" + robaDaAprire + "', sui dischi utilizzati");
             }
-            catch (Exception er)
+            else // se non è un file relativo, prova a far partire il contenuto "schietto" della textbox
             {
-                MessageBox.Show("Errore nell'aprire " + txtEdit.Text);
-                //+ "\nErrore: " + er.ToString());
+                try
+                {
+                    System.Diagnostics.Process.Start(robaDaAprire);
+                }
+                catch (Exception er)
+                {
+                    MessageBox.Show("Errore nell'aprire " + robaDaAprire);
+                    //+ "\nErrore: " + er.ToString());
+                }
             }
         }
 
