@@ -511,9 +511,9 @@
             this.label2.Location = new System.Drawing.Point(0, 17);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 17);
+            this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 61;
-            this.label2.Text = "Cartella 1 (principale)";
+            this.label2.Text = "Cartella 1";
             // 
             // txtCartella1
             // 
@@ -615,9 +615,9 @@
             this.label3.Location = new System.Drawing.Point(-4, 18);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 17);
+            this.label3.Size = new System.Drawing.Size(68, 17);
             this.label3.TabIndex = 62;
-            this.label3.Text = "Cartella 2 (norme)";
+            this.label3.Text = "Cartella 2";
             // 
             // txtCartella2
             // 
@@ -758,10 +758,10 @@
             // 
             this.txtCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella3.Location = new System.Drawing.Point(79, 37);
+            this.txtCartella3.Location = new System.Drawing.Point(77, 37);
             this.txtCartella3.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella3.Name = "txtCartella3";
-            this.txtCartella3.Size = new System.Drawing.Size(223, 22);
+            this.txtCartella3.Size = new System.Drawing.Size(225, 22);
             this.txtCartella3.TabIndex = 61;
             this.txtCartella3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
@@ -772,9 +772,9 @@
             this.label5.Location = new System.Drawing.Point(-4, 17);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 17);
+            this.label5.Size = new System.Drawing.Size(72, 17);
             this.label5.TabIndex = 60;
-            this.label5.Text = "Cartella  3 (altri dischi)";
+            this.label5.Text = "Cartella  3";
             // 
             // lstvw3
             // 
@@ -862,10 +862,10 @@
             // 
             this.txtCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella4.Location = new System.Drawing.Point(78, 37);
+            this.txtCartella4.Location = new System.Drawing.Point(77, 37);
             this.txtCartella4.Margin = new System.Windows.Forms.Padding(4);
             this.txtCartella4.Name = "txtCartella4";
-            this.txtCartella4.Size = new System.Drawing.Size(229, 22);
+            this.txtCartella4.Size = new System.Drawing.Size(230, 22);
             this.txtCartella4.TabIndex = 62;
             this.txtCartella4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
             this.txtCartella4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
@@ -876,9 +876,9 @@
             this.label6.Location = new System.Drawing.Point(-4, 16);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 17);
+            this.label6.Size = new System.Drawing.Size(68, 17);
             this.label6.TabIndex = 61;
-            this.label6.Text = "Cartella 4 (rete)";
+            this.label6.Text = "Cartella 4";
             // 
             // lstvw4
             // 
