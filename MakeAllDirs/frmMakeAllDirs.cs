@@ -804,6 +804,8 @@ namespace LaunchAll
         {
             if (txtRootDir.Text != "" && txtDiscoNuovo.Text != "")
             {
+                if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                    txtDiscoNuovo.Text += "\\";
                 if (txtRootDir.Text.IndexOf(':') == 1)
                 {
                     char[] dummy = txtRootDir.Text.ToCharArray();

@@ -327,6 +327,8 @@ namespace LaunchAll
                 txtFileConfigurazione.Text = opfilConfigurazione.FileName;
                 LeggiFileConfigurazione();
             }
+            txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1) + ":\\";
+            txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1) + ":\\";
         }
 
         private void txtCartella_MouseClick(object sender, MouseEventArgs e)
@@ -674,15 +676,10 @@ namespace LaunchAll
         {
             if (txtDiscoNuovo.Text != "")
             {
+                if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                    txtDiscoNuovo.Text += "\\";
                 foreach (TextBox tb in txtDischi)
                 {
-                    //if (tb.Text.IndexOf(':') == 1)
-                    //{
-                    //    char[] dummy = tb.Text.ToCharArray();
-                    //    dummy[0] = (char)txtDisco.Text[0];
-                    //    tb.Text = new string(dummy);
-                    //}
-                    //tb.Text = txtDiscoNuovo.Text + ":\\"; 
                     tb.Text = tb.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
                 }
 
