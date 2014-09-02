@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>gamon LegoLogo 256x256.ico</ApplicationIcon>
+    <ApplicationIcon>gamon LegoLogo decentrato sfondo bianco 48 x 48.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LaunchAll">
@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="gamon LegoLogo 256x256.ico" />
+    <Content Include="gamon LegoLogo decentrato sfondo bianco 48 x 48.ico" />
     <None Include="Resources\gamon LegoLogo decentrato sfondo bianco 256x256.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

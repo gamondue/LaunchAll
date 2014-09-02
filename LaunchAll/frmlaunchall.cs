@@ -674,15 +674,34 @@ namespace LaunchAll
 
         private void btnCambiaDisco_Click(object sender, EventArgs e)
         {
+            if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+                txtDiscoVecchio.Text += "\\";
+            if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                txtDiscoNuovo.Text += "\\";
+
             if (txtDiscoNuovo.Text != "")
             {
-                if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
-                    txtDiscoNuovo.Text += "\\";
-                foreach (TextBox tb in txtDischi)
+                if (txtDiscoVecchio.Text.LastIndexOf("\\") == 2) // c'è un \ oltre il carattere 2
                 {
-                    tb.Text = tb.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
+                    // nel disco vecchio c'è solo il disco, niente path
+                    foreach (TextBox tb in txtDischi) // sostituzione nelle caselle dei dischi
+                    {
+                        tb.Text = tb.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
+                    }
+                } else
+                {   // nel disco vecchio c'è anche una  path
+                    string pathDatogliere = txtDiscoVecchio.Text.Substring(3);
+                    string discoDaCambiare = txtDiscoVecchio.Text.Substring(0, 3);
+                    foreach (TextBox tb in txtDischi) // parte di disco del nuovo nella casella del disco
+                    {
+                        tb.Text = tb.Text.Replace(discoDaCambiare, txtDiscoNuovo.Text);
+                    }
+                    foreach (TextBox tb in txtCartelle) // parte di path del vecchio tolta dal nuovo
+                    {
+                        tb.Text = tb.Text.Replace(pathDatogliere, "");
+                    }
                 }
-
+                // sostituzione letterale all'interno delle listview
                 foreach (ListView lst in lstvw)
                 {
                     foreach (ListViewItem it in lst.Items)  {
@@ -740,6 +759,18 @@ namespace LaunchAll
         private void txtDiscoNuovo_MouseClick(object sender, MouseEventArgs e)
         {
             txtEdit.Text = txtDiscoNuovo.Text;
+        }
+
+        private void txtDiscoVecchio_Leave(object sender, EventArgs e)
+        {
+            if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+                txtDiscoVecchio.Text += "\\";
+        }
+
+        private void txtDiscoNuovo_Leave(object sender, EventArgs e)
+        {
+            if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                txtDiscoNuovo.Text += "\\";
         }
     }
 }

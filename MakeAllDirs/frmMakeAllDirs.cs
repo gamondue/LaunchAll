@@ -802,27 +802,37 @@ namespace LaunchAll
 
         private void btnCambiaDisco_Click(object sender, EventArgs e)
         {
+            // se manca la slash alla fine del nome del disco, la aggiunge
+            if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+                txtDiscoVecchio.Text += "\\";
+            if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                txtDiscoNuovo.Text += "\\";
+
             if (txtRootDir.Text != "" && txtDiscoNuovo.Text != "")
             {
-                if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
-                    txtDiscoNuovo.Text += "\\";
-                if (txtRootDir.Text.IndexOf(':') == 1)
-                {
-                    char[] dummy = txtRootDir.Text.ToCharArray();
-                    dummy[0] = (char)txtDiscoNuovo.Text[0];
-                    txtRootDir.Text = new string(dummy);
-                }
-                if (txtCartellaCopia.Text.IndexOf(':') == 1)
-                {
-                    char[] dummy = txtCartellaCopia.Text.ToCharArray();
-                    dummy[0] = (char)txtDiscoNuovo.Text[0];
-                    txtCartellaCopia.Text = new string(dummy);
-                }
-
-                foreach (ListViewItem it in lstvwFileDaCopiare.Items)
-                {
-                    it.Text = it.Text.Replace(txtDiscoVecchio.Text + ":\\", txtDiscoNuovo.Text + ":\\");
-                }
+                //if (txtRootDir.Text.IndexOf(':') == 1)
+                //{
+                //    char[] dummy = txtRootDir.Text.ToCharArray();
+                //    dummy[0] = (char)txtDiscoNuovo.Text[0];
+                //    txtRootDir.Text = new string(dummy);
+                //}
+                //if (txtCartellaCopia.Text.IndexOf(':') == 1)
+                //{
+                //    char[] dummy = txtCartellaCopia.Text.ToCharArray();
+                //    dummy[0] = (char)txtDiscoNuovo.Text[0];
+                //    txtCartellaCopia.Text = new string(dummy);
+                //}
+                txtRootDir.Text = txtRootDir.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
+                txtCartellaCopia.Text = txtCartellaCopia.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
+            }
+            else
+            {
+                // nel disco vecchio c'è anche una  path
+            }
+            // sostituzione letterale all'interno delle listview
+            foreach (ListViewItem it in lstvwFileDaCopiare.Items)
+            {
+                it.Text = it.Text.Replace(txtDiscoVecchio.Text + ":\\", txtDiscoNuovo.Text + ":\\");
             }
         }
 
@@ -851,6 +861,20 @@ namespace LaunchAll
         private void txtDiscoNuovo_MouseClick(object sender, MouseEventArgs e)
         {
             txtEdit.Text = txtDiscoNuovo.Text;
+        }
+
+        private void txtDiscoVecchio_Leave(object sender, EventArgs e)
+        {
+            if (txtDiscoVecchio.Text != "")
+                if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+                txtDiscoVecchio.Text += "\\";
+        }
+
+        private void txtDiscoNuovo_Leave(object sender, EventArgs e)
+        {
+            if (txtDiscoNuovo.Text != "")
+                if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+                txtDiscoNuovo.Text += "\\";
         }
     }
 }
