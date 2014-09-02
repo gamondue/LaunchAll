@@ -14,6 +14,8 @@ namespace LaunchAll
     {
         private string fileConfigurazioneIniziale = "";
 
+        string versione = "V." + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
         public frmMakeAllDirs()
         {
             InitializeComponent();
@@ -35,6 +37,8 @@ namespace LaunchAll
 
         private void frmMakeAllDirs_Load(object sender, EventArgs e)
         {
+            this.Text += " " + versione;
+
             gamon.frmAbout f = new gamon.frmAbout();
             f.Visible = false;
             f.ShowDialog();
@@ -810,24 +814,8 @@ namespace LaunchAll
 
             if (txtRootDir.Text != "" && txtDiscoNuovo.Text != "")
             {
-                //if (txtRootDir.Text.IndexOf(':') == 1)
-                //{
-                //    char[] dummy = txtRootDir.Text.ToCharArray();
-                //    dummy[0] = (char)txtDiscoNuovo.Text[0];
-                //    txtRootDir.Text = new string(dummy);
-                //}
-                //if (txtCartellaCopia.Text.IndexOf(':') == 1)
-                //{
-                //    char[] dummy = txtCartellaCopia.Text.ToCharArray();
-                //    dummy[0] = (char)txtDiscoNuovo.Text[0];
-                //    txtCartellaCopia.Text = new string(dummy);
-                //}
                 txtRootDir.Text = txtRootDir.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
                 txtCartellaCopia.Text = txtCartellaCopia.Text.Replace(txtDiscoVecchio.Text, txtDiscoNuovo.Text);
-            }
-            else
-            {
-                // nel disco vecchio c'è anche una  path
             }
             // sostituzione letterale all'interno delle listview
             foreach (ListViewItem it in lstvwFileDaCopiare.Items)

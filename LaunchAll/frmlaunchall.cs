@@ -28,6 +28,8 @@ namespace LaunchAll
         
         private int nListBox = 4; // numero delle listbox cartelle in interfacci utente
 
+        string versione = "V." + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
         public frmLaunchAll()
         {
             InitializeComponent();
@@ -37,10 +39,14 @@ namespace LaunchAll
         {
             InitializeComponent();
             fileConfigurazioneIniziale = FileConfigurazione.Replace(".mall", ".lall");
+
+            this.Text += " " + versione;
         }
 
         private void frmLaunchAll_Load(object sender, EventArgs e)
         {
+            this.Text += " " + versione;
+
             btnConfigura[0] = btnConfigura1;
             btnConfigura[1] = btnConfigura2;
             btnConfigura[2] = btnConfigura3;

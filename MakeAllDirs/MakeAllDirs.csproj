@@ -100,7 +100,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gamon LegoLogo 256x256.ico" />
     <Content Include="gamon LegoLogo decentrato sfondo bianco 48 x 48.ico" />
     <None Include="Resources\gamon LegoLogo decentrato sfondo bianco 256x256.png" />
   </ItemGroup>
