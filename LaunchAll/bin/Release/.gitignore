@@ -1,1 +1,3 @@
 *.pdb
+*.vshost.exe
+*.vshost.exe.manifest

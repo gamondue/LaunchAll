@@ -120,6 +120,7 @@ namespace LaunchAll
         {
             btnCreaCartelle_Click(null, null);
             btnCopia_Click(null, null);
+            MessageBox.Show("Fatto");
         }
 
         private void btnMenoAlbero_Click(object sender, EventArgs e)
@@ -131,8 +132,10 @@ namespace LaunchAll
         private void btnCartellaPerCopiare_Click(object sender, EventArgs e)
         {
             try
-            { foreach (ListViewItem riga in lstvwFileDaCopiare.SelectedItems)
-                riga.SubItems[1].Text = ".\\" + trwCartelleDaCreare.SelectedNode.FullPath;
+            { 
+                foreach (ListViewItem riga in lstvwFileDaCopiare.SelectedItems)
+                    riga.SubItems[1].Text = ".\\" + trwCartelleDaCreare.SelectedNode.FullPath;
+                lstvwFileDaCopiare.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
             }
             catch
             {
@@ -189,6 +192,7 @@ namespace LaunchAll
                 //if (nodoRadice.Checked)
                 //    Directory.CreateDirectory(nodoRadice.FullPath);
             }
+            MessageBox.Show("Fatto");
         }
 
         private void CreaFiglio(TreeNode NodoCorrente)
@@ -248,6 +252,7 @@ namespace LaunchAll
                             == DialogResult.Yes)
                             File.Copy(filePartenza, fileDestinazione,true);
                 }
+                MessageBox.Show("Fatto");
             }
         }
 
