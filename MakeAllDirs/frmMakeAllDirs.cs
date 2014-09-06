@@ -610,7 +610,10 @@ namespace LaunchAll
             btnDeCheckAll.Enabled = Stato;
             btnCheckAll.Enabled = Stato;
             btnDisabilitaCreare.Enabled = Stato;
-            btnAbilitaCreare.Enabled = Stato; 
+            btnAbilitaCreare.Enabled = Stato;
+            btnCheckOff.Enabled = Stato;
+            btnCheckOn.Enabled = Stato;
+            btnOrdina.Enabled = Stato;
         }
 
         private void btnSalva_Click(object sender, EventArgs e)
@@ -868,6 +871,11 @@ namespace LaunchAll
             if (txtDiscoNuovo.Text != "")
                 if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
                 txtDiscoNuovo.Text += "\\";
+        }
+
+        private void btnOrdina_Click(object sender, EventArgs e)
+        {
+            trwCartelleDaCreare.Sort();
         }
     }
 }
