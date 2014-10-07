@@ -39,13 +39,11 @@ namespace LaunchAll
         {
             InitializeComponent();
             fileConfigurazioneIniziale = FileConfigurazione.Replace(".mall", ".lall");
-
-            this.Text += " " + versione;
         }
 
         private void frmLaunchAll_Load(object sender, EventArgs e)
         {
-            this.Text += " " + versione;
+            this.Text += " " + versione; 
 
             btnConfigura[0] = btnConfigura1;
             btnConfigura[1] = btnConfigura2;
@@ -290,7 +288,7 @@ namespace LaunchAll
             string pathDefault="";
 
             ForzaAbilitazioneBottoni(File.Exists(txtFileConfigurazione.Text));
-            this.Text = Path.GetFileName(txtFileConfigurazione.Text) + " | " + this.Text.Substring (this.Text.IndexOf("|")+1).Trim(); ;
+            this.Text = Path.GetFileName(txtFileConfigurazione.Text) + " | " + this.Text.Substring (this.Text.IndexOf("|")+1).Trim(); 
             //if (txtFileConfigurazione.Text != "") 
             //    pathDefault = Path.GetDirectoryName(txtFileConfigurazione.Text);
             //if (pathDefault != "")
