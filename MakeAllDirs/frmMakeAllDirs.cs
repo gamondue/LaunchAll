@@ -252,8 +252,8 @@ namespace LaunchAll
                             == DialogResult.Yes)
                             File.Copy(filePartenza, fileDestinazione,true);
                 }
-                MessageBox.Show("Fatto");
             }
+            MessageBox.Show("Fatto");
         }
 
         private void btnPiuPiu_Click(object sender, EventArgs e)
