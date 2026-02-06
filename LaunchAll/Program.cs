@@ -1,27 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
-
 namespace LaunchAll
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
-        /// Punto di ingresso principale dell'applicazione.
+        ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main(string[] args)
+        static void Main()
         {
-            // LaunchAll
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            if (args.Length == 1)
-            {
-                Application.Run(new frmLaunchAll(args[0]));
-            }
-            else
-                Application.Run(new frmLaunchAll());
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new frmLaunchAll());
         }
     }
 }

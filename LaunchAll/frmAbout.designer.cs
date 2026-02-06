@@ -196,7 +196,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LaunchAll.Properties.Resources.gamon_LegoLogo_decentrato_sfondo_bianco_256x256;
             this.pictureBox1.Location = new System.Drawing.Point(3, 11);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(256, 255);
