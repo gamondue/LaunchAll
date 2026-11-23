@@ -43,7 +43,9 @@ namespace LaunchAll
 
         private void frmLaunchAll_Load(object sender, EventArgs e)
         {
-            this.Text += " " + versione; 
+            this.Text += " " + versione;
+
+            AssicuraCartellaConfigurazioneDefault();
 
             btnConfigura[0] = btnConfigura1;
             btnConfigura[1] = btnConfigura2;
@@ -97,13 +99,46 @@ namespace LaunchAll
                 l.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
         }
 
+        private string RicavaCartellaConfigurazioneDefault()
+        {
+            string cartellaDocumenti = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            return Path.Combine(cartellaDocumenti, "LaunchAll");
+        }
+
+        private string RicavaCartellaDialogoConfigurazione()
+        {
+            string cartellaDaTesto = "";
+            try
+            {
+                cartellaDaTesto = Path.GetDirectoryName(txtFileConfigurazione.Text) ?? "";
+            }
+            catch (ArgumentException) { }
+
+            if (Directory.Exists(cartellaDaTesto))
+                return cartellaDaTesto;
+
+            return RicavaCartellaConfigurazioneDefault();
+        }
+
+        private void AssicuraCartellaConfigurazioneDefault()
+        {
+            try
+            {
+                Directory.CreateDirectory(RicavaCartellaConfigurazioneDefault());
+            }
+            catch (Exception er) when (er is IOException || er is UnauthorizedAccessException)
+            {
+                MessageBox.Show("Impossibile creare la cartella di default:\n" + er.Message);
+            }
+        }
+
         private void btnImporta_Click(object sender, EventArgs e)
         {
+            AssicuraCartellaConfigurazioneDefault();
             opfilConfigurazione.Title = "Scelta file da importare";
             // scelta del file da importare
             opfilConfigurazione.Filter = "File di LaunchAll|*.lall";
-            opfilConfigurazione.InitialDirectory = Path.GetDirectoryName(
-                                        txtFileConfigurazione.Text);
+            opfilConfigurazione.InitialDirectory = RicavaCartellaDialogoConfigurazione();
             opfilConfigurazione.Multiselect = false;
             DialogResult r = opfilConfigurazione.ShowDialog();
             if (r == System.Windows.Forms.DialogResult.OK)
@@ -114,7 +149,9 @@ namespace LaunchAll
 
         private void btnEsporta_Click(object sender, EventArgs e)
         {
+            AssicuraCartellaConfigurazioneDefault();
             svfilConfigurazione.Filter = "File di LaunchAll|*.lall";
+            svfilConfigurazione.InitialDirectory = RicavaCartellaDialogoConfigurazione();
             svfilConfigurazione.FileName = txtFileConfigurazione.Text;
             DialogResult r = svfilConfigurazione.ShowDialog();
             if (r == System.Windows.Forms.DialogResult.OK)
@@ -315,14 +352,10 @@ namespace LaunchAll
 
         private void btnApriFileConfigurazione_Click(object sender, EventArgs e)
         {
+            AssicuraCartellaConfigurazioneDefault();
             opfilConfigurazione.Title = "Scelta file da aprire";
             opfilConfigurazione.Filter = "File di LaunchAll|*.lall";
-            try
-            {
-                opfilConfigurazione.InitialDirectory = Path.GetDirectoryName(
-                                                txtFileConfigurazione.Text);
-            }
-            catch (Exception er) { }
+            opfilConfigurazione.InitialDirectory = RicavaCartellaDialogoConfigurazione();
             opfilConfigurazione.FileName = "*.lall"; 
             opfilConfigurazione.Multiselect = false;
             DialogResult r = opfilConfigurazione.ShowDialog();
@@ -331,8 +364,14 @@ namespace LaunchAll
                 txtFileConfigurazione.Text = opfilConfigurazione.FileName;
                 LeggiFileConfigurazione();
             }
-            txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1) + ":\\";
-            txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1) + ":\\";
+            if (!string.IsNullOrEmpty(txtFileConfigurazione.Text))
+            {
+                txtDiscoNuovo.Text = txtFileConfigurazione.Text.Substring(0, 1) + ":\\";
+            }
+            if (!string.IsNullOrEmpty(txtDisco1.Text))
+            {
+                txtDiscoVecchio.Text = txtDisco1.Text.Substring(0, 1) + ":\\";
+            }
         }
 
         private void txtCartella_MouseClick(object sender, MouseEventArgs e)
@@ -568,7 +607,11 @@ namespace LaunchAll
 
         private void btnNuovo_Click(object sender, EventArgs e)
         {
+            AssicuraCartellaConfigurazioneDefault();
             svfilConfigurazione.Filter = "File di ApriTutto|*.lall";
+            svfilConfigurazione.InitialDirectory = RicavaCartellaDialogoConfigurazione();
+            if (string.IsNullOrWhiteSpace(txtFileConfigurazione.Text))
+                svfilConfigurazione.FileName = Path.Combine(RicavaCartellaConfigurazioneDefault(), "NuovaConfigurazione.lall");
             DialogResult r = svfilConfigurazione.ShowDialog();
             if (r == System.Windows.Forms.DialogResult.OK)
             {
@@ -678,9 +721,9 @@ namespace LaunchAll
 
         private void btnCambiaDisco_Click(object sender, EventArgs e)
         {
-            if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+            if (txtDiscoVecchio.Text.Length > 0 && !txtDiscoVecchio.Text.EndsWith("\\"))
                 txtDiscoVecchio.Text += "\\";
-            if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+            if (txtDiscoNuovo.Text.Length > 0 && !txtDiscoNuovo.Text.EndsWith("\\"))
                 txtDiscoNuovo.Text += "\\";
 
             if (txtDiscoNuovo.Text != "")
@@ -767,13 +810,13 @@ namespace LaunchAll
 
         private void txtDiscoVecchio_Leave(object sender, EventArgs e)
         {
-            if (txtDiscoVecchio.Text.Substring(txtDiscoVecchio.Text.Length - 1, 1) != "\\")
+            if (txtDiscoVecchio.Text.Length > 0 && !txtDiscoVecchio.Text.EndsWith("\\"))
                 txtDiscoVecchio.Text += "\\";
         }
 
         private void txtDiscoNuovo_Leave(object sender, EventArgs e)
         {
-            if (txtDiscoNuovo.Text.Substring(txtDiscoNuovo.Text.Length - 1, 1) != "\\")
+            if (txtDiscoNuovo.Text.Length > 0 && !txtDiscoNuovo.Text.EndsWith("\\"))
                 txtDiscoNuovo.Text += "\\";
         }
     }

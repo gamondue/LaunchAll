@@ -29,1007 +29,1002 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLaunchAll));
-            this.btnImporta = new System.Windows.Forms.Button();
-            this.btnEsporta = new System.Windows.Forms.Button();
-            this.btnCreaCartelle = new System.Windows.Forms.Button();
-            this.btnApriTutti = new System.Windows.Forms.Button();
-            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.btnSalva = new System.Windows.Forms.Button();
-            this.btnApriFileConfigurazione = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtFileConfigurazione = new System.Windows.Forms.TextBox();
-            this.svfilConfigurazione = new System.Windows.Forms.SaveFileDialog();
-            this.opfilConfigurazione = new System.Windows.Forms.OpenFileDialog();
-            this.txtEdit = new System.Windows.Forms.TextBox();
-            this.btnTrovaESostituisci = new System.Windows.Forms.Button();
-            this.btnApriFile = new System.Windows.Forms.Button();
-            this.opfilScelta = new System.Windows.Forms.OpenFileDialog();
-            this.btnApri1 = new System.Windows.Forms.Button();
-            this.btnMeno1 = new System.Windows.Forms.Button();
-            this.btnPiu1 = new System.Windows.Forms.Button();
-            this.btnApri2 = new System.Windows.Forms.Button();
-            this.btnMeno2 = new System.Windows.Forms.Button();
-            this.btnPiu2 = new System.Windows.Forms.Button();
-            this.btnApri3 = new System.Windows.Forms.Button();
-            this.btnMeno3 = new System.Windows.Forms.Button();
-            this.btnPiu3 = new System.Windows.Forms.Button();
-            this.btnNuovo = new System.Windows.Forms.Button();
-            this.btnApri4 = new System.Windows.Forms.Button();
-            this.btnMeno4 = new System.Windows.Forms.Button();
-            this.btnPiu4 = new System.Windows.Forms.Button();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.txtDisco1 = new System.Windows.Forms.TextBox();
-            this.btnConfigura1 = new System.Windows.Forms.Button();
-            this.btnCartella1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtCartella1 = new System.Windows.Forms.TextBox();
-            this.lstvw1 = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeCheckAll1 = new System.Windows.Forms.Button();
-            this.btnCheckAll1 = new System.Windows.Forms.Button();
-            this.txtDisco2 = new System.Windows.Forms.TextBox();
-            this.btnConfigura2 = new System.Windows.Forms.Button();
-            this.btnCartella2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtCartella2 = new System.Windows.Forms.TextBox();
-            this.lstvw2 = new System.Windows.Forms.ListView();
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeCheckAll2 = new System.Windows.Forms.Button();
-            this.btnCheckAll2 = new System.Windows.Forms.Button();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.txtDisco3 = new System.Windows.Forms.TextBox();
-            this.btnConfigura3 = new System.Windows.Forms.Button();
-            this.btnCartella3 = new System.Windows.Forms.Button();
-            this.txtCartella3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lstvw3 = new System.Windows.Forms.ListView();
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeCheckAll3 = new System.Windows.Forms.Button();
-            this.btnCheckAll3 = new System.Windows.Forms.Button();
-            this.txtDisco4 = new System.Windows.Forms.TextBox();
-            this.btnConfigura4 = new System.Windows.Forms.Button();
-            this.btnCartella4 = new System.Windows.Forms.Button();
-            this.txtCartella4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lstvw4 = new System.Windows.Forms.ListView();
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeCheckAll4 = new System.Windows.Forms.Button();
-            this.btnCheckAll4 = new System.Windows.Forms.Button();
-            this.txtDiscoNuovo = new System.Windows.Forms.TextBox();
-            this.btnCambiaDisco = new System.Windows.Forms.Button();
-            this.txtDiscoVecchio = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            this.SuspendLayout();
+            btnImporta = new Button();
+            btnEsporta = new Button();
+            btnCreaCartelle = new Button();
+            btnApriTutti = new Button();
+            folderBrowserDialog = new FolderBrowserDialog();
+            btnSalva = new Button();
+            btnApriFileConfigurazione = new Button();
+            label4 = new Label();
+            txtFileConfigurazione = new TextBox();
+            svfilConfigurazione = new SaveFileDialog();
+            opfilConfigurazione = new OpenFileDialog();
+            txtEdit = new TextBox();
+            btnTrovaESostituisci = new Button();
+            btnApriFile = new Button();
+            opfilScelta = new OpenFileDialog();
+            btnApri1 = new Button();
+            btnMeno1 = new Button();
+            btnPiu1 = new Button();
+            btnApri2 = new Button();
+            btnMeno2 = new Button();
+            btnPiu2 = new Button();
+            btnApri3 = new Button();
+            btnMeno3 = new Button();
+            btnPiu3 = new Button();
+            btnNuovo = new Button();
+            btnApri4 = new Button();
+            btnMeno4 = new Button();
+            btnPiu4 = new Button();
+            splitContainer1 = new SplitContainer();
+            splitContainer2 = new SplitContainer();
+            txtDisco1 = new TextBox();
+            btnConfigura1 = new Button();
+            btnCartella1 = new Button();
+            label2 = new Label();
+            txtCartella1 = new TextBox();
+            lstvw1 = new ListView();
+            columnHeader5 = new ColumnHeader();
+            btnDeCheckAll1 = new Button();
+            btnCheckAll1 = new Button();
+            txtDisco2 = new TextBox();
+            btnConfigura2 = new Button();
+            btnCartella2 = new Button();
+            label3 = new Label();
+            txtCartella2 = new TextBox();
+            lstvw2 = new ListView();
+            columnHeader6 = new ColumnHeader();
+            btnDeCheckAll2 = new Button();
+            btnCheckAll2 = new Button();
+            splitContainer3 = new SplitContainer();
+            txtDisco3 = new TextBox();
+            btnConfigura3 = new Button();
+            btnCartella3 = new Button();
+            txtCartella3 = new TextBox();
+            label5 = new Label();
+            lstvw3 = new ListView();
+            columnHeader7 = new ColumnHeader();
+            btnDeCheckAll3 = new Button();
+            btnCheckAll3 = new Button();
+            txtDisco4 = new TextBox();
+            btnConfigura4 = new Button();
+            btnCartella4 = new Button();
+            txtCartella4 = new TextBox();
+            label6 = new Label();
+            lstvw4 = new ListView();
+            columnHeader8 = new ColumnHeader();
+            btnDeCheckAll4 = new Button();
+            btnCheckAll4 = new Button();
+            txtDiscoNuovo = new TextBox();
+            btnCambiaDisco = new Button();
+            txtDiscoVecchio = new TextBox();
+            label1 = new Label();
+            label7 = new Label();
+            grpFileConfigurazione = new GroupBox();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+            splitContainer2.Panel1.SuspendLayout();
+            splitContainer2.Panel2.SuspendLayout();
+            splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).BeginInit();
+            splitContainer3.Panel1.SuspendLayout();
+            splitContainer3.Panel2.SuspendLayout();
+            splitContainer3.SuspendLayout();
+            grpFileConfigurazione.SuspendLayout();
+            SuspendLayout();
             // 
             // btnImporta
             // 
-            this.btnImporta.Location = new System.Drawing.Point(471, 4);
-            this.btnImporta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnImporta.Name = "btnImporta";
-            this.btnImporta.Size = new System.Drawing.Size(104, 34);
-            this.btnImporta.TabIndex = 2;
-            this.btnImporta.Text = "Importa";
-            this.btnImporta.UseVisualStyleBackColor = true;
-            this.btnImporta.Click += new System.EventHandler(this.btnImporta_Click);
+            btnImporta.Location = new Point(402, 15);
+            btnImporta.Margin = new Padding(4);
+            btnImporta.Name = "btnImporta";
+            btnImporta.Size = new Size(91, 32);
+            btnImporta.TabIndex = 2;
+            btnImporta.Text = "Importa";
+            btnImporta.UseVisualStyleBackColor = true;
+            btnImporta.Click += btnImporta_Click;
             // 
             // btnEsporta
             // 
-            this.btnEsporta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEsporta.Location = new System.Drawing.Point(324, 4);
-            this.btnEsporta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnEsporta.Name = "btnEsporta";
-            this.btnEsporta.Size = new System.Drawing.Size(140, 34);
-            this.btnEsporta.TabIndex = 3;
-            this.btnEsporta.Text = "Salva con nome";
-            this.btnEsporta.UseVisualStyleBackColor = true;
-            this.btnEsporta.Click += new System.EventHandler(this.btnEsporta_Click);
+            btnEsporta.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEsporta.Location = new Point(273, 15);
+            btnEsporta.Margin = new Padding(4);
+            btnEsporta.Name = "btnEsporta";
+            btnEsporta.Size = new Size(122, 32);
+            btnEsporta.TabIndex = 3;
+            btnEsporta.Text = "Salva con nome";
+            btnEsporta.UseVisualStyleBackColor = true;
+            btnEsporta.Click += btnEsporta_Click;
             // 
             // btnCreaCartelle
             // 
-            this.btnCreaCartelle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCreaCartelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCreaCartelle.ForeColor = System.Drawing.Color.White;
-            this.btnCreaCartelle.Location = new System.Drawing.Point(1047, 4);
-            this.btnCreaCartelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCreaCartelle.Name = "btnCreaCartelle";
-            this.btnCreaCartelle.Size = new System.Drawing.Size(104, 34);
-            this.btnCreaCartelle.TabIndex = 4;
-            this.btnCreaCartelle.Text = "MakeAllDirs";
-            this.btnCreaCartelle.UseVisualStyleBackColor = false;
-            this.btnCreaCartelle.Visible = false;
-            this.btnCreaCartelle.Click += new System.EventHandler(this.btnCreaCartelle_Click);
+            btnCreaCartelle.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCreaCartelle.BackColor = Color.FromArgb(192, 0, 0);
+            btnCreaCartelle.ForeColor = Color.White;
+            btnCreaCartelle.Location = new Point(886, 15);
+            btnCreaCartelle.Margin = new Padding(4);
+            btnCreaCartelle.Name = "btnCreaCartelle";
+            btnCreaCartelle.Size = new Size(91, 32);
+            btnCreaCartelle.TabIndex = 4;
+            btnCreaCartelle.Text = "MakeAllDirs";
+            btnCreaCartelle.UseVisualStyleBackColor = false;
+            btnCreaCartelle.Visible = false;
+            btnCreaCartelle.Click += btnCreaCartelle_Click;
             // 
             // btnApriTutti
             // 
-            this.btnApriTutti.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApriTutti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnApriTutti.ForeColor = System.Drawing.Color.White;
-            this.btnApriTutti.Location = new System.Drawing.Point(1155, 4);
-            this.btnApriTutti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApriTutti.Name = "btnApriTutti";
-            this.btnApriTutti.Size = new System.Drawing.Size(103, 34);
-            this.btnApriTutti.TabIndex = 8;
-            this.btnApriTutti.Text = "Apri tutti";
-            this.btnApriTutti.UseVisualStyleBackColor = false;
-            this.btnApriTutti.Click += new System.EventHandler(this.btnApriTutti_Click);
+            btnApriTutti.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnApriTutti.BackColor = Color.FromArgb(0, 192, 0);
+            btnApriTutti.ForeColor = Color.White;
+            btnApriTutti.Location = new Point(1011, 15);
+            btnApriTutti.Margin = new Padding(4);
+            btnApriTutti.Name = "btnApriTutti";
+            btnApriTutti.Size = new Size(90, 32);
+            btnApriTutti.TabIndex = 8;
+            btnApriTutti.Text = "Apri tutti";
+            btnApriTutti.UseVisualStyleBackColor = false;
+            btnApriTutti.Click += btnApriTutti_Click;
             // 
             // btnSalva
             // 
-            this.btnSalva.Location = new System.Drawing.Point(803, 4);
-            this.btnSalva.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSalva.Name = "btnSalva";
-            this.btnSalva.Size = new System.Drawing.Size(104, 34);
-            this.btnSalva.TabIndex = 17;
-            this.btnSalva.Text = "Salva";
-            this.btnSalva.UseVisualStyleBackColor = true;
-            this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
+            btnSalva.Location = new Point(692, 15);
+            btnSalva.Margin = new Padding(4);
+            btnSalva.Name = "btnSalva";
+            btnSalva.Size = new Size(91, 32);
+            btnSalva.TabIndex = 17;
+            btnSalva.Text = "Salva";
+            btnSalva.UseVisualStyleBackColor = true;
+            btnSalva.Click += btnSalva_Click;
             // 
             // btnApriFileConfigurazione
             // 
-            this.btnApriFileConfigurazione.Location = new System.Drawing.Point(913, 4);
-            this.btnApriFileConfigurazione.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApriFileConfigurazione.Name = "btnApriFileConfigurazione";
-            this.btnApriFileConfigurazione.Size = new System.Drawing.Size(104, 34);
-            this.btnApriFileConfigurazione.TabIndex = 16;
-            this.btnApriFileConfigurazione.Text = "Scegli file";
-            this.btnApriFileConfigurazione.UseVisualStyleBackColor = true;
-            this.btnApriFileConfigurazione.Click += new System.EventHandler(this.btnApriFileConfigurazione_Click);
+            btnApriFileConfigurazione.Location = new Point(788, 15);
+            btnApriFileConfigurazione.Margin = new Padding(4);
+            btnApriFileConfigurazione.Name = "btnApriFileConfigurazione";
+            btnApriFileConfigurazione.Size = new Size(91, 32);
+            btnApriFileConfigurazione.TabIndex = 16;
+            btnApriFileConfigurazione.Text = "Scegli file";
+            btnApriFileConfigurazione.UseVisualStyleBackColor = true;
+            btnApriFileConfigurazione.Click += btnApriFileConfigurazione_Click;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 22);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 17);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "File di configurazione";
+            label4.AutoSize = true;
+            label4.Location = new Point(8, 26);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(120, 15);
+            label4.TabIndex = 15;
+            label4.Text = "File di configurazione";
             // 
             // txtFileConfigurazione
             // 
-            this.txtFileConfigurazione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFileConfigurazione.Location = new System.Drawing.Point(13, 42);
-            this.txtFileConfigurazione.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtFileConfigurazione.Name = "txtFileConfigurazione";
-            this.txtFileConfigurazione.Size = new System.Drawing.Size(1241, 22);
-            this.txtFileConfigurazione.TabIndex = 0;
-            this.txtFileConfigurazione.TextChanged += new System.EventHandler(this.txtFileConfigurazione_TextChanged);
+            txtFileConfigurazione.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtFileConfigurazione.Location = new Point(8, 50);
+            txtFileConfigurazione.Margin = new Padding(4);
+            txtFileConfigurazione.Name = "txtFileConfigurazione";
+            txtFileConfigurazione.Size = new Size(972, 23);
+            txtFileConfigurazione.TabIndex = 0;
+            txtFileConfigurazione.TextChanged += txtFileConfigurazione_TextChanged;
             // 
             // svfilConfigurazione
             // 
-            this.svfilConfigurazione.FileName = "da_aprire.lall";
+            svfilConfigurazione.FileName = "da_aprire.lall";
             // 
             // opfilConfigurazione
             // 
-            this.opfilConfigurazione.FileName = "da_aprire.lall";
+            opfilConfigurazione.FileName = "da_aprire.lall";
             // 
             // txtEdit
             // 
-            this.txtEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEdit.Location = new System.Drawing.Point(360, 78);
-            this.txtEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtEdit.Name = "txtEdit";
-            this.txtEdit.ReadOnly = true;
-            this.txtEdit.Size = new System.Drawing.Size(895, 22);
-            this.txtEdit.TabIndex = 34;
-            this.txtEdit.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtEdit_MouseDoubleClick);
+            txtEdit.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtEdit.Location = new Point(315, 82);
+            txtEdit.Margin = new Padding(4);
+            txtEdit.Name = "txtEdit";
+            txtEdit.ReadOnly = true;
+            txtEdit.Size = new Size(784, 23);
+            txtEdit.TabIndex = 34;
+            txtEdit.MouseDoubleClick += txtEdit_MouseDoubleClick;
             // 
             // btnTrovaESostituisci
             // 
-            this.btnTrovaESostituisci.Enabled = false;
-            this.btnTrovaESostituisci.Location = new System.Drawing.Point(177, 4);
-            this.btnTrovaESostituisci.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnTrovaESostituisci.Name = "btnTrovaESostituisci";
-            this.btnTrovaESostituisci.Size = new System.Drawing.Size(140, 34);
-            this.btnTrovaESostituisci.TabIndex = 35;
-            this.btnTrovaESostituisci.Text = "Trova e sostituisci";
-            this.btnTrovaESostituisci.UseVisualStyleBackColor = true;
-            this.btnTrovaESostituisci.Click += new System.EventHandler(this.btnTrovaESostituisci_Click);
+            btnTrovaESostituisci.Enabled = false;
+            btnTrovaESostituisci.Location = new Point(144, 15);
+            btnTrovaESostituisci.Margin = new Padding(4);
+            btnTrovaESostituisci.Name = "btnTrovaESostituisci";
+            btnTrovaESostituisci.Size = new Size(122, 32);
+            btnTrovaESostituisci.TabIndex = 35;
+            btnTrovaESostituisci.Text = "Trova e sostituisci";
+            btnTrovaESostituisci.UseVisualStyleBackColor = true;
+            btnTrovaESostituisci.Click += btnTrovaESostituisci_Click;
             // 
             // btnApriFile
             // 
-            this.btnApriFile.Location = new System.Drawing.Point(692, 4);
-            this.btnApriFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApriFile.Name = "btnApriFile";
-            this.btnApriFile.Size = new System.Drawing.Size(104, 34);
-            this.btnApriFile.TabIndex = 36;
-            this.btnApriFile.Text = "Apri";
-            this.btnApriFile.UseVisualStyleBackColor = true;
-            this.btnApriFile.Click += new System.EventHandler(this.btnApriFile_Click);
+            btnApriFile.Location = new Point(595, 15);
+            btnApriFile.Margin = new Padding(4);
+            btnApriFile.Name = "btnApriFile";
+            btnApriFile.Size = new Size(91, 32);
+            btnApriFile.TabIndex = 36;
+            btnApriFile.Text = "Apri";
+            btnApriFile.UseVisualStyleBackColor = true;
+            btnApriFile.Click += btnApriFile_Click;
             // 
             // opfilScelta
             // 
-            this.opfilScelta.FileName = "da_aprire.lall";
+            opfilScelta.FileName = "da_aprire.lall";
             // 
             // btnApri1
             // 
-            this.btnApri1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApri1.Location = new System.Drawing.Point(236, 422);
-            this.btnApri1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApri1.Name = "btnApri1";
-            this.btnApri1.Size = new System.Drawing.Size(57, 25);
-            this.btnApri1.TabIndex = 43;
-            this.btnApri1.Text = "Apri";
-            this.btnApri1.UseVisualStyleBackColor = true;
-            this.btnApri1.Click += new System.EventHandler(this.btnApriCartella_Click);
+            btnApri1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnApri1.Location = new Point(205, 409);
+            btnApri1.Margin = new Padding(4);
+            btnApri1.Name = "btnApri1";
+            btnApri1.Size = new Size(50, 23);
+            btnApri1.TabIndex = 43;
+            btnApri1.Text = "Apri";
+            btnApri1.UseVisualStyleBackColor = true;
+            btnApri1.Click += btnApriCartella_Click;
             // 
             // btnMeno1
             // 
-            this.btnMeno1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMeno1.Location = new System.Drawing.Point(39, 422);
-            this.btnMeno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnMeno1.Name = "btnMeno1";
-            this.btnMeno1.Size = new System.Drawing.Size(39, 25);
-            this.btnMeno1.TabIndex = 42;
-            this.btnMeno1.Text = "-";
-            this.btnMeno1.UseVisualStyleBackColor = true;
-            this.btnMeno1.Click += new System.EventHandler(this.btnMeno_Click);
+            btnMeno1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnMeno1.Location = new Point(34, 409);
+            btnMeno1.Margin = new Padding(4);
+            btnMeno1.Name = "btnMeno1";
+            btnMeno1.Size = new Size(34, 23);
+            btnMeno1.TabIndex = 42;
+            btnMeno1.Text = "-";
+            btnMeno1.UseVisualStyleBackColor = true;
+            btnMeno1.Click += btnMeno_Click;
             // 
             // btnPiu1
             // 
-            this.btnPiu1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnPiu1.Location = new System.Drawing.Point(0, 422);
-            this.btnPiu1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPiu1.Name = "btnPiu1";
-            this.btnPiu1.Size = new System.Drawing.Size(39, 25);
-            this.btnPiu1.TabIndex = 41;
-            this.btnPiu1.Text = "+";
-            this.btnPiu1.UseVisualStyleBackColor = true;
-            this.btnPiu1.Click += new System.EventHandler(this.btnPiu_Click);
+            btnPiu1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnPiu1.Location = new Point(0, 409);
+            btnPiu1.Margin = new Padding(4);
+            btnPiu1.Name = "btnPiu1";
+            btnPiu1.Size = new Size(34, 23);
+            btnPiu1.TabIndex = 41;
+            btnPiu1.Text = "+";
+            btnPiu1.UseVisualStyleBackColor = true;
+            btnPiu1.Click += btnPiu_Click;
             // 
             // btnApri2
             // 
-            this.btnApri2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApri2.Location = new System.Drawing.Point(250, 422);
-            this.btnApri2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApri2.Name = "btnApri2";
-            this.btnApri2.Size = new System.Drawing.Size(57, 25);
-            this.btnApri2.TabIndex = 46;
-            this.btnApri2.Text = "Apri";
-            this.btnApri2.UseVisualStyleBackColor = true;
-            this.btnApri2.Click += new System.EventHandler(this.btnApriCartella_Click);
+            btnApri2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnApri2.Location = new Point(220, 409);
+            btnApri2.Margin = new Padding(4);
+            btnApri2.Name = "btnApri2";
+            btnApri2.Size = new Size(50, 23);
+            btnApri2.TabIndex = 46;
+            btnApri2.Text = "Apri";
+            btnApri2.UseVisualStyleBackColor = true;
+            btnApri2.Click += btnApriCartella_Click;
             // 
             // btnMeno2
             // 
-            this.btnMeno2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMeno2.Location = new System.Drawing.Point(39, 422);
-            this.btnMeno2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnMeno2.Name = "btnMeno2";
-            this.btnMeno2.Size = new System.Drawing.Size(39, 25);
-            this.btnMeno2.TabIndex = 45;
-            this.btnMeno2.Text = "-";
-            this.btnMeno2.UseVisualStyleBackColor = true;
-            this.btnMeno2.Click += new System.EventHandler(this.btnMeno_Click);
+            btnMeno2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnMeno2.Location = new Point(34, 409);
+            btnMeno2.Margin = new Padding(4);
+            btnMeno2.Name = "btnMeno2";
+            btnMeno2.Size = new Size(34, 23);
+            btnMeno2.TabIndex = 45;
+            btnMeno2.Text = "-";
+            btnMeno2.UseVisualStyleBackColor = true;
+            btnMeno2.Click += btnMeno_Click;
             // 
             // btnPiu2
             // 
-            this.btnPiu2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnPiu2.Location = new System.Drawing.Point(0, 422);
-            this.btnPiu2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPiu2.Name = "btnPiu2";
-            this.btnPiu2.Size = new System.Drawing.Size(39, 25);
-            this.btnPiu2.TabIndex = 44;
-            this.btnPiu2.Text = "+";
-            this.btnPiu2.UseVisualStyleBackColor = true;
-            this.btnPiu2.Click += new System.EventHandler(this.btnPiu_Click);
+            btnPiu2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnPiu2.Location = new Point(0, 409);
+            btnPiu2.Margin = new Padding(4);
+            btnPiu2.Name = "btnPiu2";
+            btnPiu2.Size = new Size(34, 23);
+            btnPiu2.TabIndex = 44;
+            btnPiu2.Text = "+";
+            btnPiu2.UseVisualStyleBackColor = true;
+            btnPiu2.Click += btnPiu_Click;
             // 
             // btnApri3
             // 
-            this.btnApri3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApri3.Location = new System.Drawing.Point(245, 421);
-            this.btnApri3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApri3.Name = "btnApri3";
-            this.btnApri3.Size = new System.Drawing.Size(57, 25);
-            this.btnApri3.TabIndex = 49;
-            this.btnApri3.Text = "Apri";
-            this.btnApri3.UseVisualStyleBackColor = true;
-            this.btnApri3.Click += new System.EventHandler(this.btnApriCartella_Click);
+            btnApri3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnApri3.Location = new Point(214, 409);
+            btnApri3.Margin = new Padding(4);
+            btnApri3.Name = "btnApri3";
+            btnApri3.Size = new Size(50, 23);
+            btnApri3.TabIndex = 49;
+            btnApri3.Text = "Apri";
+            btnApri3.UseVisualStyleBackColor = true;
+            btnApri3.Click += btnApriCartella_Click;
             // 
             // btnMeno3
             // 
-            this.btnMeno3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMeno3.Location = new System.Drawing.Point(39, 421);
-            this.btnMeno3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnMeno3.Name = "btnMeno3";
-            this.btnMeno3.Size = new System.Drawing.Size(39, 25);
-            this.btnMeno3.TabIndex = 48;
-            this.btnMeno3.Text = "-";
-            this.btnMeno3.UseVisualStyleBackColor = true;
-            this.btnMeno3.Click += new System.EventHandler(this.btnMeno_Click);
+            btnMeno3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnMeno3.Location = new Point(34, 409);
+            btnMeno3.Margin = new Padding(4);
+            btnMeno3.Name = "btnMeno3";
+            btnMeno3.Size = new Size(34, 23);
+            btnMeno3.TabIndex = 48;
+            btnMeno3.Text = "-";
+            btnMeno3.UseVisualStyleBackColor = true;
+            btnMeno3.Click += btnMeno_Click;
             // 
             // btnPiu3
             // 
-            this.btnPiu3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnPiu3.Location = new System.Drawing.Point(0, 421);
-            this.btnPiu3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPiu3.Name = "btnPiu3";
-            this.btnPiu3.Size = new System.Drawing.Size(39, 25);
-            this.btnPiu3.TabIndex = 47;
-            this.btnPiu3.Text = "+";
-            this.btnPiu3.UseVisualStyleBackColor = true;
-            this.btnPiu3.Click += new System.EventHandler(this.btnPiu_Click);
+            btnPiu3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnPiu3.Location = new Point(0, 409);
+            btnPiu3.Margin = new Padding(4);
+            btnPiu3.Name = "btnPiu3";
+            btnPiu3.Size = new Size(34, 23);
+            btnPiu3.TabIndex = 47;
+            btnPiu3.Text = "+";
+            btnPiu3.UseVisualStyleBackColor = true;
+            btnPiu3.Click += btnPiu_Click;
             // 
             // btnNuovo
             // 
-            this.btnNuovo.Location = new System.Drawing.Point(581, 4);
-            this.btnNuovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnNuovo.Name = "btnNuovo";
-            this.btnNuovo.Size = new System.Drawing.Size(104, 34);
-            this.btnNuovo.TabIndex = 50;
-            this.btnNuovo.Text = "Nuovo";
-            this.btnNuovo.UseVisualStyleBackColor = true;
-            this.btnNuovo.Click += new System.EventHandler(this.btnNuovo_Click);
+            btnNuovo.Location = new Point(498, 15);
+            btnNuovo.Margin = new Padding(4);
+            btnNuovo.Name = "btnNuovo";
+            btnNuovo.Size = new Size(91, 32);
+            btnNuovo.TabIndex = 50;
+            btnNuovo.Text = "Nuovo";
+            btnNuovo.UseVisualStyleBackColor = true;
+            btnNuovo.Click += btnNuovo_Click;
             // 
             // btnApri4
             // 
-            this.btnApri4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApri4.Location = new System.Drawing.Point(253, 421);
-            this.btnApri4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnApri4.Name = "btnApri4";
-            this.btnApri4.Size = new System.Drawing.Size(57, 25);
-            this.btnApri4.TabIndex = 56;
-            this.btnApri4.Text = "Apri";
-            this.btnApri4.UseVisualStyleBackColor = true;
-            this.btnApri4.Click += new System.EventHandler(this.btnApriCartella_Click);
+            btnApri4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnApri4.Location = new Point(222, 409);
+            btnApri4.Margin = new Padding(4);
+            btnApri4.Name = "btnApri4";
+            btnApri4.Size = new Size(50, 23);
+            btnApri4.TabIndex = 56;
+            btnApri4.Text = "Apri";
+            btnApri4.UseVisualStyleBackColor = true;
+            btnApri4.Click += btnApriCartella_Click;
             // 
             // btnMeno4
             // 
-            this.btnMeno4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMeno4.Location = new System.Drawing.Point(38, 421);
-            this.btnMeno4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnMeno4.Name = "btnMeno4";
-            this.btnMeno4.Size = new System.Drawing.Size(39, 25);
-            this.btnMeno4.TabIndex = 55;
-            this.btnMeno4.Text = "-";
-            this.btnMeno4.UseVisualStyleBackColor = true;
-            this.btnMeno4.Click += new System.EventHandler(this.btnMeno_Click);
+            btnMeno4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnMeno4.Location = new Point(33, 409);
+            btnMeno4.Margin = new Padding(4);
+            btnMeno4.Name = "btnMeno4";
+            btnMeno4.Size = new Size(34, 23);
+            btnMeno4.TabIndex = 55;
+            btnMeno4.Text = "-";
+            btnMeno4.UseVisualStyleBackColor = true;
+            btnMeno4.Click += btnMeno_Click;
             // 
             // btnPiu4
             // 
-            this.btnPiu4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnPiu4.Location = new System.Drawing.Point(-1, 421);
-            this.btnPiu4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPiu4.Name = "btnPiu4";
-            this.btnPiu4.Size = new System.Drawing.Size(39, 25);
-            this.btnPiu4.TabIndex = 54;
-            this.btnPiu4.Text = "+";
-            this.btnPiu4.UseVisualStyleBackColor = true;
-            this.btnPiu4.Click += new System.EventHandler(this.btnPiu_Click);
+            btnPiu4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnPiu4.Location = new Point(-1, 409);
+            btnPiu4.Margin = new Padding(4);
+            btnPiu4.Name = "btnPiu4";
+            btnPiu4.Size = new Size(34, 23);
+            btnPiu4.TabIndex = 54;
+            btnPiu4.Text = "+";
+            btnPiu4.UseVisualStyleBackColor = true;
+            btnPiu4.Click += btnPiu_Click;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer1.Location = new System.Drawing.Point(12, 110);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.splitContainer1.Name = "splitContainer1";
+            splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            splitContainer1.Location = new Point(10, 112);
+            splitContainer1.Margin = new Padding(4);
+            splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            splitContainer1.Panel1.Controls.Add(splitContainer2);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer3);
-            this.splitContainer1.Size = new System.Drawing.Size(1252, 450);
-            this.splitContainer1.SplitterDistance = 617;
-            this.splitContainer1.SplitterWidth = 5;
-            this.splitContainer1.TabIndex = 61;
+            splitContainer1.Panel2.Controls.Add(splitContainer3);
+            splitContainer1.Size = new Size(1096, 436);
+            splitContainer1.SplitterDistance = 540;
+            splitContainer1.TabIndex = 61;
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer2.Location = new System.Drawing.Point(1, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.splitContainer2.Name = "splitContainer2";
+            splitContainer2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            splitContainer2.Location = new Point(1, 0);
+            splitContainer2.Margin = new Padding(4);
+            splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.txtDisco1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnConfigura1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnCartella1);
-            this.splitContainer2.Panel1.Controls.Add(this.label2);
-            this.splitContainer2.Panel1.Controls.Add(this.txtCartella1);
-            this.splitContainer2.Panel1.Controls.Add(this.lstvw1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnApri1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnPiu1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnMeno1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnDeCheckAll1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnCheckAll1);
+            splitContainer2.Panel1.Controls.Add(txtDisco1);
+            splitContainer2.Panel1.Controls.Add(btnConfigura1);
+            splitContainer2.Panel1.Controls.Add(btnCartella1);
+            splitContainer2.Panel1.Controls.Add(label2);
+            splitContainer2.Panel1.Controls.Add(txtCartella1);
+            splitContainer2.Panel1.Controls.Add(lstvw1);
+            splitContainer2.Panel1.Controls.Add(btnApri1);
+            splitContainer2.Panel1.Controls.Add(btnPiu1);
+            splitContainer2.Panel1.Controls.Add(btnMeno1);
+            splitContainer2.Panel1.Controls.Add(btnDeCheckAll1);
+            splitContainer2.Panel1.Controls.Add(btnCheckAll1);
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.txtDisco2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnConfigura2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnCartella2);
-            this.splitContainer2.Panel2.Controls.Add(this.label3);
-            this.splitContainer2.Panel2.Controls.Add(this.txtCartella2);
-            this.splitContainer2.Panel2.Controls.Add(this.lstvw2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnApri2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnPiu2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnMeno2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnDeCheckAll2);
-            this.splitContainer2.Panel2.Controls.Add(this.btnCheckAll2);
-            this.splitContainer2.Size = new System.Drawing.Size(613, 450);
-            this.splitContainer2.SplitterDistance = 299;
-            this.splitContainer2.SplitterWidth = 5;
-            this.splitContainer2.TabIndex = 66;
+            splitContainer2.Panel2.Controls.Add(txtDisco2);
+            splitContainer2.Panel2.Controls.Add(btnConfigura2);
+            splitContainer2.Panel2.Controls.Add(btnCartella2);
+            splitContainer2.Panel2.Controls.Add(label3);
+            splitContainer2.Panel2.Controls.Add(txtCartella2);
+            splitContainer2.Panel2.Controls.Add(lstvw2);
+            splitContainer2.Panel2.Controls.Add(btnApri2);
+            splitContainer2.Panel2.Controls.Add(btnPiu2);
+            splitContainer2.Panel2.Controls.Add(btnMeno2);
+            splitContainer2.Panel2.Controls.Add(btnDeCheckAll2);
+            splitContainer2.Panel2.Controls.Add(btnCheckAll2);
+            splitContainer2.Size = new Size(536, 436);
+            splitContainer2.SplitterDistance = 261;
+            splitContainer2.TabIndex = 66;
             // 
             // txtDisco1
             // 
-            this.txtDisco1.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDisco1.Name = "txtDisco1";
-            this.txtDisco1.ShortcutsEnabled = false;
-            this.txtDisco1.Size = new System.Drawing.Size(76, 22);
-            this.txtDisco1.TabIndex = 68;
+            txtDisco1.Location = new Point(0, 35);
+            txtDisco1.Margin = new Padding(4);
+            txtDisco1.Name = "txtDisco1";
+            txtDisco1.ShortcutsEnabled = false;
+            txtDisco1.Size = new Size(67, 23);
+            txtDisco1.TabIndex = 68;
             // 
             // btnConfigura1
             // 
-            this.btnConfigura1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfigura1.Enabled = false;
-            this.btnConfigura1.Location = new System.Drawing.Point(147, 0);
-            this.btnConfigura1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnConfigura1.Name = "btnConfigura1";
-            this.btnConfigura1.Size = new System.Drawing.Size(93, 34);
-            this.btnConfigura1.TabIndex = 63;
-            this.btnConfigura1.Text = "Configura";
-            this.btnConfigura1.UseVisualStyleBackColor = true;
-            this.btnConfigura1.Visible = false;
+            btnConfigura1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnConfigura1.Enabled = false;
+            btnConfigura1.Location = new Point(128, 0);
+            btnConfigura1.Margin = new Padding(4);
+            btnConfigura1.Name = "btnConfigura1";
+            btnConfigura1.Size = new Size(81, 32);
+            btnConfigura1.TabIndex = 63;
+            btnConfigura1.Text = "Configura";
+            btnConfigura1.UseVisualStyleBackColor = true;
+            btnConfigura1.Visible = false;
             // 
             // btnCartella1
             // 
-            this.btnCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella1.Location = new System.Drawing.Point(246, 0);
-            this.btnCartella1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCartella1.Name = "btnCartella1";
-            this.btnCartella1.Size = new System.Drawing.Size(49, 34);
-            this.btnCartella1.TabIndex = 62;
-            this.btnCartella1.Text = "..";
-            this.btnCartella1.UseVisualStyleBackColor = true;
-            this.btnCartella1.Click += new System.EventHandler(this.btnCartella_Click);
+            btnCartella1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCartella1.Location = new Point(214, 0);
+            btnCartella1.Margin = new Padding(4);
+            btnCartella1.Name = "btnCartella1";
+            btnCartella1.Size = new Size(43, 32);
+            btnCartella1.TabIndex = 62;
+            btnCartella1.Text = "..";
+            btnCartella1.UseVisualStyleBackColor = true;
+            btnCartella1.Click += btnCartella_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 17);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 17);
-            this.label2.TabIndex = 61;
-            this.label2.Text = "Cartella 1";
+            label2.AutoSize = true;
+            label2.Location = new Point(0, 16);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(56, 15);
+            label2.TabIndex = 61;
+            label2.Text = "Cartella 1";
             // 
             // txtCartella1
             // 
-            this.txtCartella1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella1.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCartella1.Name = "txtCartella1";
-            this.txtCartella1.Size = new System.Drawing.Size(216, 22);
-            this.txtCartella1.TabIndex = 60;
-            this.txtCartella1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
-            this.txtCartella1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
+            txtCartella1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtCartella1.Location = new Point(67, 35);
+            txtCartella1.Margin = new Padding(4);
+            txtCartella1.Name = "txtCartella1";
+            txtCartella1.Size = new Size(189, 23);
+            txtCartella1.TabIndex = 60;
+            txtCartella1.MouseClick += txtCartella_MouseClick;
+            txtCartella1.MouseDoubleClick += txtCartella_MouseDoubleClick;
             // 
             // lstvw1
             // 
-            this.lstvw1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstvw1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lstvw1.CheckBoxes = true;
-            this.lstvw1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5});
-            this.lstvw1.Location = new System.Drawing.Point(0, 69);
-            this.lstvw1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lstvw1.Name = "lstvw1";
-            this.lstvw1.Size = new System.Drawing.Size(294, 347);
-            this.lstvw1.TabIndex = 59;
-            this.lstvw1.UseCompatibleStateImageBehavior = false;
-            this.lstvw1.View = System.Windows.Forms.View.Details;
-            this.lstvw1.SelectedIndexChanged += new System.EventHandler(this.lstvw_SelectedIndexChanged);
-            this.lstvw1.DoubleClick += new System.EventHandler(this.lstvw_DoubleClick);
-            this.lstvw1.Enter += new System.EventHandler(this.lstvw_Enter);
+            lstvw1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstvw1.BackColor = Color.FromArgb(255, 255, 128);
+            lstvw1.CheckBoxes = true;
+            lstvw1.Columns.AddRange(new ColumnHeader[] { columnHeader5 });
+            lstvw1.Location = new Point(0, 65);
+            lstvw1.Margin = new Padding(4);
+            lstvw1.Name = "lstvw1";
+            lstvw1.Size = new Size(257, 339);
+            lstvw1.TabIndex = 59;
+            lstvw1.UseCompatibleStateImageBehavior = false;
+            lstvw1.View = View.Details;
+            lstvw1.SelectedIndexChanged += lstvw_SelectedIndexChanged;
+            lstvw1.DoubleClick += lstvw_DoubleClick;
+            lstvw1.Enter += lstvw_Enter;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "File da lanciare";
-            this.columnHeader5.Width = 240;
+            columnHeader5.Text = "File da lanciare";
+            columnHeader5.Width = 240;
             // 
             // btnDeCheckAll1
             // 
-            this.btnDeCheckAll1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeCheckAll1.Location = new System.Drawing.Point(78, 422);
-            this.btnDeCheckAll1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnDeCheckAll1.Name = "btnDeCheckAll1";
-            this.btnDeCheckAll1.Size = new System.Drawing.Size(39, 25);
-            this.btnDeCheckAll1.TabIndex = 67;
-            this.btnDeCheckAll1.Text = "off";
-            this.btnDeCheckAll1.UseVisualStyleBackColor = true;
-            this.btnDeCheckAll1.Click += new System.EventHandler(this.btnDeCheckAll_Click);
+            btnDeCheckAll1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnDeCheckAll1.Location = new Point(68, 409);
+            btnDeCheckAll1.Margin = new Padding(4);
+            btnDeCheckAll1.Name = "btnDeCheckAll1";
+            btnDeCheckAll1.Size = new Size(34, 23);
+            btnDeCheckAll1.TabIndex = 67;
+            btnDeCheckAll1.Text = "off";
+            btnDeCheckAll1.UseVisualStyleBackColor = true;
+            btnDeCheckAll1.Click += btnDeCheckAll_Click;
             // 
             // btnCheckAll1
             // 
-            this.btnCheckAll1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnCheckAll1.Location = new System.Drawing.Point(117, 422);
-            this.btnCheckAll1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCheckAll1.Name = "btnCheckAll1";
-            this.btnCheckAll1.Size = new System.Drawing.Size(39, 25);
-            this.btnCheckAll1.TabIndex = 66;
-            this.btnCheckAll1.Text = "on";
-            this.btnCheckAll1.UseVisualStyleBackColor = true;
-            this.btnCheckAll1.Click += new System.EventHandler(this.btnCheckAll_Click);
+            btnCheckAll1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnCheckAll1.Location = new Point(102, 409);
+            btnCheckAll1.Margin = new Padding(4);
+            btnCheckAll1.Name = "btnCheckAll1";
+            btnCheckAll1.Size = new Size(34, 23);
+            btnCheckAll1.TabIndex = 66;
+            btnCheckAll1.Text = "on";
+            btnCheckAll1.UseVisualStyleBackColor = true;
+            btnCheckAll1.Click += btnCheckAll_Click;
             // 
             // txtDisco2
             // 
-            this.txtDisco2.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDisco2.Name = "txtDisco2";
-            this.txtDisco2.Size = new System.Drawing.Size(76, 22);
-            this.txtDisco2.TabIndex = 68;
+            txtDisco2.Location = new Point(0, 35);
+            txtDisco2.Margin = new Padding(4);
+            txtDisco2.Name = "txtDisco2";
+            txtDisco2.Size = new Size(67, 23);
+            txtDisco2.TabIndex = 68;
             // 
             // btnConfigura2
             // 
-            this.btnConfigura2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfigura2.Enabled = false;
-            this.btnConfigura2.Location = new System.Drawing.Point(157, 0);
-            this.btnConfigura2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnConfigura2.Name = "btnConfigura2";
-            this.btnConfigura2.Size = new System.Drawing.Size(93, 34);
-            this.btnConfigura2.TabIndex = 64;
-            this.btnConfigura2.Text = "Configura";
-            this.btnConfigura2.UseVisualStyleBackColor = true;
-            this.btnConfigura2.Visible = false;
+            btnConfigura2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnConfigura2.Enabled = false;
+            btnConfigura2.Location = new Point(138, 0);
+            btnConfigura2.Margin = new Padding(4);
+            btnConfigura2.Name = "btnConfigura2";
+            btnConfigura2.Size = new Size(81, 32);
+            btnConfigura2.TabIndex = 64;
+            btnConfigura2.Text = "Configura";
+            btnConfigura2.UseVisualStyleBackColor = true;
+            btnConfigura2.Visible = false;
             // 
             // btnCartella2
             // 
-            this.btnCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella2.Location = new System.Drawing.Point(260, 1);
-            this.btnCartella2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCartella2.Name = "btnCartella2";
-            this.btnCartella2.Size = new System.Drawing.Size(49, 33);
-            this.btnCartella2.TabIndex = 63;
-            this.btnCartella2.Text = "..";
-            this.btnCartella2.UseVisualStyleBackColor = true;
-            this.btnCartella2.Click += new System.EventHandler(this.btnCartella_Click);
+            btnCartella2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCartella2.Location = new Point(229, 1);
+            btnCartella2.Margin = new Padding(4);
+            btnCartella2.Name = "btnCartella2";
+            btnCartella2.Size = new Size(43, 31);
+            btnCartella2.TabIndex = 63;
+            btnCartella2.Text = "..";
+            btnCartella2.UseVisualStyleBackColor = true;
+            btnCartella2.Click += btnCartella_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(0, 18);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
-            this.label3.TabIndex = 62;
-            this.label3.Text = "Cartella 2";
+            label3.AutoSize = true;
+            label3.Location = new Point(0, 17);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(56, 15);
+            label3.TabIndex = 62;
+            label3.Text = "Cartella 2";
             // 
             // txtCartella2
             // 
-            this.txtCartella2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella2.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCartella2.Name = "txtCartella2";
-            this.txtCartella2.Size = new System.Drawing.Size(230, 22);
-            this.txtCartella2.TabIndex = 61;
-            this.txtCartella2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
-            this.txtCartella2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
+            txtCartella2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtCartella2.Location = new Point(67, 35);
+            txtCartella2.Margin = new Padding(4);
+            txtCartella2.Name = "txtCartella2";
+            txtCartella2.Size = new Size(203, 23);
+            txtCartella2.TabIndex = 61;
+            txtCartella2.MouseClick += txtCartella_MouseClick;
+            txtCartella2.MouseDoubleClick += txtCartella_MouseDoubleClick;
             // 
             // lstvw2
             // 
-            this.lstvw2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstvw2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lstvw2.CheckBoxes = true;
-            this.lstvw2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader6});
-            this.lstvw2.Location = new System.Drawing.Point(0, 69);
-            this.lstvw2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lstvw2.Name = "lstvw2";
-            this.lstvw2.Size = new System.Drawing.Size(306, 347);
-            this.lstvw2.TabIndex = 60;
-            this.lstvw2.UseCompatibleStateImageBehavior = false;
-            this.lstvw2.View = System.Windows.Forms.View.Details;
-            this.lstvw2.SelectedIndexChanged += new System.EventHandler(this.lstvw_SelectedIndexChanged);
-            this.lstvw2.DoubleClick += new System.EventHandler(this.lstvw_DoubleClick);
-            this.lstvw2.Enter += new System.EventHandler(this.lstvw_Enter);
+            lstvw2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstvw2.BackColor = Color.FromArgb(255, 255, 128);
+            lstvw2.CheckBoxes = true;
+            lstvw2.Columns.AddRange(new ColumnHeader[] { columnHeader6 });
+            lstvw2.Location = new Point(0, 65);
+            lstvw2.Margin = new Padding(4);
+            lstvw2.Name = "lstvw2";
+            lstvw2.Size = new Size(269, 339);
+            lstvw2.TabIndex = 60;
+            lstvw2.UseCompatibleStateImageBehavior = false;
+            lstvw2.View = View.Details;
+            lstvw2.SelectedIndexChanged += lstvw_SelectedIndexChanged;
+            lstvw2.DoubleClick += lstvw_DoubleClick;
+            lstvw2.Enter += lstvw_Enter;
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "File da lanciare";
-            this.columnHeader6.Width = 240;
+            columnHeader6.Text = "File da lanciare";
+            columnHeader6.Width = 240;
             // 
             // btnDeCheckAll2
             // 
-            this.btnDeCheckAll2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeCheckAll2.Location = new System.Drawing.Point(78, 422);
-            this.btnDeCheckAll2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnDeCheckAll2.Name = "btnDeCheckAll2";
-            this.btnDeCheckAll2.Size = new System.Drawing.Size(39, 25);
-            this.btnDeCheckAll2.TabIndex = 67;
-            this.btnDeCheckAll2.Text = "off";
-            this.btnDeCheckAll2.UseVisualStyleBackColor = true;
-            this.btnDeCheckAll2.Click += new System.EventHandler(this.btnDeCheckAll_Click);
+            btnDeCheckAll2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnDeCheckAll2.Location = new Point(68, 409);
+            btnDeCheckAll2.Margin = new Padding(4);
+            btnDeCheckAll2.Name = "btnDeCheckAll2";
+            btnDeCheckAll2.Size = new Size(34, 23);
+            btnDeCheckAll2.TabIndex = 67;
+            btnDeCheckAll2.Text = "off";
+            btnDeCheckAll2.UseVisualStyleBackColor = true;
+            btnDeCheckAll2.Click += btnDeCheckAll_Click;
             // 
             // btnCheckAll2
             // 
-            this.btnCheckAll2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnCheckAll2.Location = new System.Drawing.Point(117, 422);
-            this.btnCheckAll2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCheckAll2.Name = "btnCheckAll2";
-            this.btnCheckAll2.Size = new System.Drawing.Size(39, 25);
-            this.btnCheckAll2.TabIndex = 66;
-            this.btnCheckAll2.Text = "on";
-            this.btnCheckAll2.UseVisualStyleBackColor = true;
-            this.btnCheckAll2.Click += new System.EventHandler(this.btnCheckAll_Click);
+            btnCheckAll2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnCheckAll2.Location = new Point(102, 409);
+            btnCheckAll2.Margin = new Padding(4);
+            btnCheckAll2.Name = "btnCheckAll2";
+            btnCheckAll2.Size = new Size(34, 23);
+            btnCheckAll2.TabIndex = 66;
+            btnCheckAll2.Text = "on";
+            btnCheckAll2.UseVisualStyleBackColor = true;
+            btnCheckAll2.Click += btnCheckAll_Click;
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer3.Location = new System.Drawing.Point(0, 1);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.splitContainer3.Name = "splitContainer3";
+            splitContainer3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            splitContainer3.Location = new Point(0, 1);
+            splitContainer3.Margin = new Padding(4);
+            splitContainer3.Name = "splitContainer3";
             // 
             // splitContainer3.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.txtDisco3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnConfigura3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnCartella3);
-            this.splitContainer3.Panel1.Controls.Add(this.txtCartella3);
-            this.splitContainer3.Panel1.Controls.Add(this.label5);
-            this.splitContainer3.Panel1.Controls.Add(this.lstvw3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnApri3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnPiu3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnMeno3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnDeCheckAll3);
-            this.splitContainer3.Panel1.Controls.Add(this.btnCheckAll3);
+            splitContainer3.Panel1.Controls.Add(txtDisco3);
+            splitContainer3.Panel1.Controls.Add(btnConfigura3);
+            splitContainer3.Panel1.Controls.Add(btnCartella3);
+            splitContainer3.Panel1.Controls.Add(txtCartella3);
+            splitContainer3.Panel1.Controls.Add(label5);
+            splitContainer3.Panel1.Controls.Add(lstvw3);
+            splitContainer3.Panel1.Controls.Add(btnApri3);
+            splitContainer3.Panel1.Controls.Add(btnPiu3);
+            splitContainer3.Panel1.Controls.Add(btnMeno3);
+            splitContainer3.Panel1.Controls.Add(btnDeCheckAll3);
+            splitContainer3.Panel1.Controls.Add(btnCheckAll3);
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.txtDisco4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnConfigura4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnCartella4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnApri4);
-            this.splitContainer3.Panel2.Controls.Add(this.txtCartella4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnMeno4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnPiu4);
-            this.splitContainer3.Panel2.Controls.Add(this.label6);
-            this.splitContainer3.Panel2.Controls.Add(this.lstvw4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnDeCheckAll4);
-            this.splitContainer3.Panel2.Controls.Add(this.btnCheckAll4);
-            this.splitContainer3.Size = new System.Drawing.Size(625, 449);
-            this.splitContainer3.SplitterDistance = 307;
-            this.splitContainer3.SplitterWidth = 5;
-            this.splitContainer3.TabIndex = 64;
+            splitContainer3.Panel2.Controls.Add(txtDisco4);
+            splitContainer3.Panel2.Controls.Add(btnConfigura4);
+            splitContainer3.Panel2.Controls.Add(btnCartella4);
+            splitContainer3.Panel2.Controls.Add(btnApri4);
+            splitContainer3.Panel2.Controls.Add(txtCartella4);
+            splitContainer3.Panel2.Controls.Add(btnMeno4);
+            splitContainer3.Panel2.Controls.Add(btnPiu4);
+            splitContainer3.Panel2.Controls.Add(label6);
+            splitContainer3.Panel2.Controls.Add(lstvw4);
+            splitContainer3.Panel2.Controls.Add(btnDeCheckAll4);
+            splitContainer3.Panel2.Controls.Add(btnCheckAll4);
+            splitContainer3.Size = new Size(548, 435);
+            splitContainer3.SplitterDistance = 269;
+            splitContainer3.TabIndex = 64;
             // 
             // txtDisco3
             // 
-            this.txtDisco3.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDisco3.Name = "txtDisco3";
-            this.txtDisco3.Size = new System.Drawing.Size(76, 22);
-            this.txtDisco3.TabIndex = 69;
+            txtDisco3.Location = new Point(0, 35);
+            txtDisco3.Margin = new Padding(4);
+            txtDisco3.Name = "txtDisco3";
+            txtDisco3.Size = new Size(67, 23);
+            txtDisco3.TabIndex = 69;
             // 
             // btnConfigura3
             // 
-            this.btnConfigura3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfigura3.Enabled = false;
-            this.btnConfigura3.Location = new System.Drawing.Point(153, 0);
-            this.btnConfigura3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnConfigura3.Name = "btnConfigura3";
-            this.btnConfigura3.Size = new System.Drawing.Size(93, 34);
-            this.btnConfigura3.TabIndex = 63;
-            this.btnConfigura3.Text = "Configura";
-            this.btnConfigura3.UseVisualStyleBackColor = true;
-            this.btnConfigura3.Visible = false;
+            btnConfigura3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnConfigura3.Enabled = false;
+            btnConfigura3.Location = new Point(134, 0);
+            btnConfigura3.Margin = new Padding(4);
+            btnConfigura3.Name = "btnConfigura3";
+            btnConfigura3.Size = new Size(81, 32);
+            btnConfigura3.TabIndex = 63;
+            btnConfigura3.Text = "Configura";
+            btnConfigura3.UseVisualStyleBackColor = true;
+            btnConfigura3.Visible = false;
             // 
             // btnCartella3
             // 
-            this.btnCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella3.Location = new System.Drawing.Point(253, 0);
-            this.btnCartella3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCartella3.Name = "btnCartella3";
-            this.btnCartella3.Size = new System.Drawing.Size(49, 34);
-            this.btnCartella3.TabIndex = 62;
-            this.btnCartella3.Text = "..";
-            this.btnCartella3.UseVisualStyleBackColor = true;
-            this.btnCartella3.Click += new System.EventHandler(this.btnCartella_Click);
+            btnCartella3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCartella3.Location = new Point(221, 0);
+            btnCartella3.Margin = new Padding(4);
+            btnCartella3.Name = "btnCartella3";
+            btnCartella3.Size = new Size(43, 32);
+            btnCartella3.TabIndex = 62;
+            btnCartella3.Text = "..";
+            btnCartella3.UseVisualStyleBackColor = true;
+            btnCartella3.Click += btnCartella_Click;
             // 
             // txtCartella3
             // 
-            this.txtCartella3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella3.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCartella3.Name = "txtCartella3";
-            this.txtCartella3.Size = new System.Drawing.Size(225, 22);
-            this.txtCartella3.TabIndex = 61;
-            this.txtCartella3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
-            this.txtCartella3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
+            txtCartella3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtCartella3.Location = new Point(67, 35);
+            txtCartella3.Margin = new Padding(4);
+            txtCartella3.Name = "txtCartella3";
+            txtCartella3.Size = new Size(197, 23);
+            txtCartella3.TabIndex = 61;
+            txtCartella3.MouseClick += txtCartella_MouseClick;
+            txtCartella3.MouseDoubleClick += txtCartella_MouseDoubleClick;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(0, 17);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 17);
-            this.label5.TabIndex = 60;
-            this.label5.Text = "Cartella  3";
+            label5.AutoSize = true;
+            label5.Location = new Point(0, 16);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(59, 15);
+            label5.TabIndex = 60;
+            label5.Text = "Cartella  3";
             // 
             // lstvw3
             // 
-            this.lstvw3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstvw3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lstvw3.CheckBoxes = true;
-            this.lstvw3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader7});
-            this.lstvw3.Location = new System.Drawing.Point(0, 68);
-            this.lstvw3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lstvw3.Name = "lstvw3";
-            this.lstvw3.Size = new System.Drawing.Size(301, 347);
-            this.lstvw3.TabIndex = 59;
-            this.lstvw3.UseCompatibleStateImageBehavior = false;
-            this.lstvw3.View = System.Windows.Forms.View.Details;
-            this.lstvw3.SelectedIndexChanged += new System.EventHandler(this.lstvw_SelectedIndexChanged);
-            this.lstvw3.DoubleClick += new System.EventHandler(this.lstvw_DoubleClick);
-            this.lstvw3.Enter += new System.EventHandler(this.lstvw_Enter);
+            lstvw3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstvw3.BackColor = Color.FromArgb(255, 255, 128);
+            lstvw3.CheckBoxes = true;
+            lstvw3.Columns.AddRange(new ColumnHeader[] { columnHeader7 });
+            lstvw3.Location = new Point(0, 64);
+            lstvw3.Margin = new Padding(4);
+            lstvw3.Name = "lstvw3";
+            lstvw3.Size = new Size(264, 339);
+            lstvw3.TabIndex = 59;
+            lstvw3.UseCompatibleStateImageBehavior = false;
+            lstvw3.View = View.Details;
+            lstvw3.SelectedIndexChanged += lstvw_SelectedIndexChanged;
+            lstvw3.DoubleClick += lstvw_DoubleClick;
+            lstvw3.Enter += lstvw_Enter;
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "File da lanciare";
-            this.columnHeader7.Width = 240;
+            columnHeader7.Text = "File da lanciare";
+            columnHeader7.Width = 240;
             // 
             // btnDeCheckAll3
             // 
-            this.btnDeCheckAll3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeCheckAll3.Location = new System.Drawing.Point(78, 421);
-            this.btnDeCheckAll3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnDeCheckAll3.Name = "btnDeCheckAll3";
-            this.btnDeCheckAll3.Size = new System.Drawing.Size(39, 25);
-            this.btnDeCheckAll3.TabIndex = 67;
-            this.btnDeCheckAll3.Text = "off";
-            this.btnDeCheckAll3.UseVisualStyleBackColor = true;
-            this.btnDeCheckAll3.Click += new System.EventHandler(this.btnDeCheckAll_Click);
+            btnDeCheckAll3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnDeCheckAll3.Location = new Point(68, 409);
+            btnDeCheckAll3.Margin = new Padding(4);
+            btnDeCheckAll3.Name = "btnDeCheckAll3";
+            btnDeCheckAll3.Size = new Size(34, 23);
+            btnDeCheckAll3.TabIndex = 67;
+            btnDeCheckAll3.Text = "off";
+            btnDeCheckAll3.UseVisualStyleBackColor = true;
+            btnDeCheckAll3.Click += btnDeCheckAll_Click;
             // 
             // btnCheckAll3
             // 
-            this.btnCheckAll3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnCheckAll3.Location = new System.Drawing.Point(117, 421);
-            this.btnCheckAll3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCheckAll3.Name = "btnCheckAll3";
-            this.btnCheckAll3.Size = new System.Drawing.Size(39, 25);
-            this.btnCheckAll3.TabIndex = 66;
-            this.btnCheckAll3.Text = "on";
-            this.btnCheckAll3.UseVisualStyleBackColor = true;
-            this.btnCheckAll3.Click += new System.EventHandler(this.btnCheckAll_Click);
+            btnCheckAll3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnCheckAll3.Location = new Point(102, 409);
+            btnCheckAll3.Margin = new Padding(4);
+            btnCheckAll3.Name = "btnCheckAll3";
+            btnCheckAll3.Size = new Size(34, 23);
+            btnCheckAll3.TabIndex = 66;
+            btnCheckAll3.Text = "on";
+            btnCheckAll3.UseVisualStyleBackColor = true;
+            btnCheckAll3.Click += btnCheckAll_Click;
             // 
             // txtDisco4
             // 
-            this.txtDisco4.Location = new System.Drawing.Point(0, 37);
-            this.txtDisco4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDisco4.Name = "txtDisco4";
-            this.txtDisco4.Size = new System.Drawing.Size(76, 22);
-            this.txtDisco4.TabIndex = 70;
+            txtDisco4.Location = new Point(0, 35);
+            txtDisco4.Margin = new Padding(4);
+            txtDisco4.Name = "txtDisco4";
+            txtDisco4.Size = new Size(67, 23);
+            txtDisco4.TabIndex = 70;
             // 
             // btnConfigura4
             // 
-            this.btnConfigura4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfigura4.Enabled = false;
-            this.btnConfigura4.Location = new System.Drawing.Point(165, 0);
-            this.btnConfigura4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnConfigura4.Name = "btnConfigura4";
-            this.btnConfigura4.Size = new System.Drawing.Size(93, 34);
-            this.btnConfigura4.TabIndex = 64;
-            this.btnConfigura4.Text = "Configura";
-            this.btnConfigura4.UseVisualStyleBackColor = true;
-            this.btnConfigura4.Visible = false;
+            btnConfigura4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnConfigura4.Enabled = false;
+            btnConfigura4.Location = new Point(145, 0);
+            btnConfigura4.Margin = new Padding(4);
+            btnConfigura4.Name = "btnConfigura4";
+            btnConfigura4.Size = new Size(81, 32);
+            btnConfigura4.TabIndex = 64;
+            btnConfigura4.Text = "Configura";
+            btnConfigura4.UseVisualStyleBackColor = true;
+            btnConfigura4.Visible = false;
             // 
             // btnCartella4
             // 
-            this.btnCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCartella4.Location = new System.Drawing.Point(260, 0);
-            this.btnCartella4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCartella4.Name = "btnCartella4";
-            this.btnCartella4.Size = new System.Drawing.Size(49, 34);
-            this.btnCartella4.TabIndex = 63;
-            this.btnCartella4.Text = "..";
-            this.btnCartella4.UseVisualStyleBackColor = true;
-            this.btnCartella4.Click += new System.EventHandler(this.btnCartella_Click);
+            btnCartella4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCartella4.Location = new Point(229, 0);
+            btnCartella4.Margin = new Padding(4);
+            btnCartella4.Name = "btnCartella4";
+            btnCartella4.Size = new Size(43, 32);
+            btnCartella4.TabIndex = 63;
+            btnCartella4.Text = "..";
+            btnCartella4.UseVisualStyleBackColor = true;
+            btnCartella4.Click += btnCartella_Click;
             // 
             // txtCartella4
             // 
-            this.txtCartella4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCartella4.Location = new System.Drawing.Point(77, 37);
-            this.txtCartella4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCartella4.Name = "txtCartella4";
-            this.txtCartella4.Size = new System.Drawing.Size(232, 22);
-            this.txtCartella4.TabIndex = 62;
-            this.txtCartella4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseClick);
-            this.txtCartella4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCartella_MouseDoubleClick);
+            txtCartella4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtCartella4.Location = new Point(67, 35);
+            txtCartella4.Margin = new Padding(4);
+            txtCartella4.Name = "txtCartella4";
+            txtCartella4.Size = new Size(205, 23);
+            txtCartella4.TabIndex = 62;
+            txtCartella4.MouseClick += txtCartella_MouseClick;
+            txtCartella4.MouseDoubleClick += txtCartella_MouseDoubleClick;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(0, 16);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 17);
-            this.label6.TabIndex = 61;
-            this.label6.Text = "Cartella 4";
+            label6.AutoSize = true;
+            label6.Location = new Point(0, 15);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(56, 15);
+            label6.TabIndex = 61;
+            label6.Text = "Cartella 4";
             // 
             // lstvw4
             // 
-            this.lstvw4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstvw4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lstvw4.CheckBoxes = true;
-            this.lstvw4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader8});
-            this.lstvw4.Location = new System.Drawing.Point(0, 68);
-            this.lstvw4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lstvw4.Name = "lstvw4";
-            this.lstvw4.Size = new System.Drawing.Size(309, 347);
-            this.lstvw4.TabIndex = 60;
-            this.lstvw4.UseCompatibleStateImageBehavior = false;
-            this.lstvw4.View = System.Windows.Forms.View.Details;
-            this.lstvw4.SelectedIndexChanged += new System.EventHandler(this.lstvw_SelectedIndexChanged);
-            this.lstvw4.DoubleClick += new System.EventHandler(this.lstvw_DoubleClick);
-            this.lstvw4.Enter += new System.EventHandler(this.lstvw_Enter);
+            lstvw4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstvw4.BackColor = Color.FromArgb(255, 255, 128);
+            lstvw4.CheckBoxes = true;
+            lstvw4.Columns.AddRange(new ColumnHeader[] { columnHeader8 });
+            lstvw4.Location = new Point(0, 64);
+            lstvw4.Margin = new Padding(4);
+            lstvw4.Name = "lstvw4";
+            lstvw4.Size = new Size(272, 339);
+            lstvw4.TabIndex = 60;
+            lstvw4.UseCompatibleStateImageBehavior = false;
+            lstvw4.View = View.Details;
+            lstvw4.SelectedIndexChanged += lstvw_SelectedIndexChanged;
+            lstvw4.DoubleClick += lstvw_DoubleClick;
+            lstvw4.Enter += lstvw_Enter;
             // 
             // columnHeader8
             // 
-            this.columnHeader8.Text = "File da lanciare";
-            this.columnHeader8.Width = 240;
+            columnHeader8.Text = "File da lanciare";
+            columnHeader8.Width = 240;
             // 
             // btnDeCheckAll4
             // 
-            this.btnDeCheckAll4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeCheckAll4.Location = new System.Drawing.Point(77, 421);
-            this.btnDeCheckAll4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnDeCheckAll4.Name = "btnDeCheckAll4";
-            this.btnDeCheckAll4.Size = new System.Drawing.Size(39, 25);
-            this.btnDeCheckAll4.TabIndex = 67;
-            this.btnDeCheckAll4.Text = "off";
-            this.btnDeCheckAll4.UseVisualStyleBackColor = true;
-            this.btnDeCheckAll4.Click += new System.EventHandler(this.btnDeCheckAll_Click);
+            btnDeCheckAll4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnDeCheckAll4.Location = new Point(67, 409);
+            btnDeCheckAll4.Margin = new Padding(4);
+            btnDeCheckAll4.Name = "btnDeCheckAll4";
+            btnDeCheckAll4.Size = new Size(34, 23);
+            btnDeCheckAll4.TabIndex = 67;
+            btnDeCheckAll4.Text = "off";
+            btnDeCheckAll4.UseVisualStyleBackColor = true;
+            btnDeCheckAll4.Click += btnDeCheckAll_Click;
             // 
             // btnCheckAll4
             // 
-            this.btnCheckAll4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnCheckAll4.Location = new System.Drawing.Point(116, 421);
-            this.btnCheckAll4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCheckAll4.Name = "btnCheckAll4";
-            this.btnCheckAll4.Size = new System.Drawing.Size(39, 25);
-            this.btnCheckAll4.TabIndex = 66;
-            this.btnCheckAll4.Text = "on";
-            this.btnCheckAll4.UseVisualStyleBackColor = true;
-            this.btnCheckAll4.Click += new System.EventHandler(this.btnCheckAll_Click);
+            btnCheckAll4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnCheckAll4.Location = new Point(102, 409);
+            btnCheckAll4.Margin = new Padding(4);
+            btnCheckAll4.Name = "btnCheckAll4";
+            btnCheckAll4.Size = new Size(34, 23);
+            btnCheckAll4.TabIndex = 66;
+            btnCheckAll4.Text = "on";
+            btnCheckAll4.UseVisualStyleBackColor = true;
+            btnCheckAll4.Click += btnCheckAll_Click;
             // 
             // txtDiscoNuovo
             // 
-            this.txtDiscoNuovo.Location = new System.Drawing.Point(268, 78);
-            this.txtDiscoNuovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDiscoNuovo.Name = "txtDiscoNuovo";
-            this.txtDiscoNuovo.Size = new System.Drawing.Size(85, 22);
-            this.txtDiscoNuovo.TabIndex = 2;
-            this.txtDiscoNuovo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtDiscoNuovo_MouseClick);
-            this.txtDiscoNuovo.TextChanged += new System.EventHandler(this.txtDiscoNuovo_TextChanged);
-            this.txtDiscoNuovo.Leave += new System.EventHandler(this.txtDiscoNuovo_Leave);
+            txtDiscoNuovo.Location = new Point(234, 82);
+            txtDiscoNuovo.Margin = new Padding(4);
+            txtDiscoNuovo.Name = "txtDiscoNuovo";
+            txtDiscoNuovo.Size = new Size(75, 23);
+            txtDiscoNuovo.TabIndex = 2;
+            txtDiscoNuovo.MouseClick += txtDiscoNuovo_MouseClick;
+            txtDiscoNuovo.TextChanged += txtDiscoNuovo_TextChanged;
+            txtDiscoNuovo.Leave += txtDiscoNuovo_Leave;
             // 
             // btnCambiaDisco
             // 
-            this.btnCambiaDisco.Location = new System.Drawing.Point(12, 74);
-            this.btnCambiaDisco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCambiaDisco.Name = "btnCambiaDisco";
-            this.btnCambiaDisco.Size = new System.Drawing.Size(117, 31);
-            this.btnCambiaDisco.TabIndex = 68;
-            this.btnCambiaDisco.Text = "Cambia Disco";
-            this.btnCambiaDisco.UseVisualStyleBackColor = true;
-            this.btnCambiaDisco.Click += new System.EventHandler(this.btnCambiaDisco_Click);
+            btnCambiaDisco.Location = new Point(10, 79);
+            btnCambiaDisco.Margin = new Padding(4);
+            btnCambiaDisco.Name = "btnCambiaDisco";
+            btnCambiaDisco.Size = new Size(102, 29);
+            btnCambiaDisco.TabIndex = 68;
+            btnCambiaDisco.Text = "Cambia Disco";
+            btnCambiaDisco.UseVisualStyleBackColor = true;
+            btnCambiaDisco.Click += btnCambiaDisco_Click;
             // 
             // txtDiscoVecchio
             // 
-            this.txtDiscoVecchio.Location = new System.Drawing.Point(164, 78);
-            this.txtDiscoVecchio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDiscoVecchio.Name = "txtDiscoVecchio";
-            this.txtDiscoVecchio.Size = new System.Drawing.Size(85, 22);
-            this.txtDiscoVecchio.TabIndex = 1;
-            this.txtDiscoVecchio.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtDiscoVecchio_MouseClick);
-            this.txtDiscoVecchio.TextChanged += new System.EventHandler(this.txtDiscoVecchio_TextChanged);
-            this.txtDiscoVecchio.Leave += new System.EventHandler(this.txtDiscoVecchio_Leave);
+            txtDiscoVecchio.Location = new Point(144, 82);
+            txtDiscoVecchio.Margin = new Padding(4);
+            txtDiscoVecchio.Name = "txtDiscoVecchio";
+            txtDiscoVecchio.Size = new Size(75, 23);
+            txtDiscoVecchio.TabIndex = 1;
+            txtDiscoVecchio.MouseClick += txtDiscoVecchio_MouseClick;
+            txtDiscoVecchio.TextChanged += txtDiscoVecchio_TextChanged;
+            txtDiscoVecchio.Leave += txtDiscoVecchio_Leave;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(136, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 17);
-            this.label1.TabIndex = 70;
-            this.label1.Text = "Da";
+            label1.AutoSize = true;
+            label1.Location = new Point(119, 85);
+            label1.Name = "label1";
+            label1.Size = new Size(21, 15);
+            label1.TabIndex = 70;
+            label1.Text = "Da";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(251, 80);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 17);
-            this.label7.TabIndex = 71;
-            this.label7.Text = "a";
+            label7.AutoSize = true;
+            label7.Location = new Point(220, 84);
+            label7.Name = "label7";
+            label7.Size = new Size(13, 15);
+            label7.TabIndex = 71;
+            label7.Text = "a";
+            // 
+            // grpFileConfigurazione
+            // 
+            grpFileConfigurazione.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            grpFileConfigurazione.Controls.Add(btnNuovo);
+            grpFileConfigurazione.Controls.Add(btnImporta);
+            grpFileConfigurazione.Controls.Add(btnEsporta);
+            grpFileConfigurazione.Controls.Add(btnApriFileConfigurazione);
+            grpFileConfigurazione.Controls.Add(btnSalva);
+            grpFileConfigurazione.Controls.Add(btnTrovaESostituisci);
+            grpFileConfigurazione.Controls.Add(btnApriFile);
+            grpFileConfigurazione.Controls.Add(txtFileConfigurazione);
+            grpFileConfigurazione.Controls.Add(label4);
+            grpFileConfigurazione.Controls.Add(btnCreaCartelle);
+            grpFileConfigurazione.Location = new Point(10, 0);
+            grpFileConfigurazione.Name = "grpFileConfigurazione";
+            grpFileConfigurazione.Size = new Size(987, 75);
+            grpFileConfigurazione.TabIndex = 0;
+            grpFileConfigurazione.TabStop = false;
+            grpFileConfigurazione.Text = "Operazioni sui file di configurazione del programma";
             // 
             // frmLaunchAll
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1268, 566);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtDiscoVecchio);
-            this.Controls.Add(this.btnCambiaDisco);
-            this.Controls.Add(this.txtDiscoNuovo);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.btnApriTutti);
-            this.Controls.Add(this.btnNuovo);
-            this.Controls.Add(this.btnApriFile);
-            this.Controls.Add(this.btnTrovaESostituisci);
-            this.Controls.Add(this.txtEdit);
-            this.Controls.Add(this.btnSalva);
-            this.Controls.Add(this.btnApriFileConfigurazione);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtFileConfigurazione);
-            this.Controls.Add(this.btnCreaCartelle);
-            this.Controls.Add(this.btnEsporta);
-            this.Controls.Add(this.btnImporta);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "frmLaunchAll";
-            this.Text = "LaunchAll: apre file da più cartelle";
-            this.Load += new System.EventHandler(this.frmLaunchAll_Load);
-            this.Resize += new System.EventHandler(this.frmLaunchAll_Resize);
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel1.PerformLayout();
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            this.splitContainer2.Panel2.PerformLayout();
-            this.splitContainer2.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel1.PerformLayout();
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            this.splitContainer3.Panel2.PerformLayout();
-            this.splitContainer3.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 192);
+            ClientSize = new Size(1110, 555);
+            Controls.Add(label7);
+            Controls.Add(label1);
+            Controls.Add(txtDiscoVecchio);
+            Controls.Add(btnCambiaDisco);
+            Controls.Add(txtDiscoNuovo);
+            Controls.Add(splitContainer1);
+            Controls.Add(btnApriTutti);
+            Controls.Add(txtEdit);
+            Controls.Add(grpFileConfigurazione);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4);
+            Name = "frmLaunchAll";
+            Text = "LaunchAll: apre file da più cartelle";
+            Load += frmLaunchAll_Load;
+            Resize += frmLaunchAll_Resize;
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
+            splitContainer2.Panel1.ResumeLayout(false);
+            splitContainer2.Panel1.PerformLayout();
+            splitContainer2.Panel2.ResumeLayout(false);
+            splitContainer2.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+            splitContainer2.ResumeLayout(false);
+            splitContainer3.Panel1.ResumeLayout(false);
+            splitContainer3.Panel1.PerformLayout();
+            splitContainer3.Panel2.ResumeLayout(false);
+            splitContainer3.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
+            splitContainer3.ResumeLayout(false);
+            grpFileConfigurazione.ResumeLayout(false);
+            grpFileConfigurazione.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.GroupBox grpFileConfigurazione;
         private System.Windows.Forms.Button btnImporta;
         private System.Windows.Forms.Button btnEsporta;
         private System.Windows.Forms.Button btnCreaCartelle;
