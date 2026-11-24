@@ -72,6 +72,9 @@ namespace LaunchAll
             lstvw[2] = lstvw3;
             lstvw[3] = lstvw4;
 
+            foreach (ListView l in lstvw)
+                l.SmallImageList = new ImageList() { ColorDepth = ColorDepth.Depth32Bit };
+
             txtFileConfigurazione.Text = fileConfigurazioneIniziale;
 
             if (txtFileConfigurazione.Text != "")
@@ -219,7 +222,33 @@ namespace LaunchAll
                     nCartella++;
             }
             sr.Close();
-            return true; 
+            for (int n = 0; n < lstvw.Length; n++)
+                AggiornaIcone(n);
+            return true;
+        }
+
+        /// <summary>
+        /// Assegna a ogni riga della lista l'icona che File Explorer mostrerebbe per quel file.
+        /// </summary>
+        private void AggiornaIcone(int nCartella)
+        {
+            ListView lista = lstvw[nCartella];
+            ImageList immagini = lista.SmallImageList!;
+            string radice = discoEFile(nCartella) + "\\";
+
+            foreach (ListViewItem riga in lista.Items)
+            {
+                string percorso = riga.Text.Replace(".\\", radice);
+                string chiave = IconeFile.Chiave(percorso);
+                if (!immagini.Images.ContainsKey(chiave))
+                {
+                    using Icon? icona = IconeFile.Ottieni(percorso);
+                    if (icona == null)
+                        continue;
+                    immagini.Images.Add(chiave, icona);
+                }
+                riga.ImageKey = chiave;
+            }
         }
 
         private bool SalvaFile()
@@ -556,6 +585,7 @@ namespace LaunchAll
                     lstvw[nCartella - 1].Items[lstvw[nCartella - 1].Items.Count-1].Checked = true;
                 }
             }
+            AggiornaIcone(nCartella - 1);
             lstvw[nCartella - 1].AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
         }
 
