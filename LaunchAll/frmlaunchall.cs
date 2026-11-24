@@ -434,7 +434,7 @@ namespace LaunchAll
                     if (lstvw[cartella].Items[i].Checked)
                         try
                         {
-                            System.Diagnostics.Process.Start(nomeFile);
+                            ShellLauncher.Apri(nomeFile);
                         }
                         catch (Exception er)
                         {
@@ -449,7 +449,8 @@ namespace LaunchAll
         {
             Button cliccato = (Button)sender;
             int nCartella = Convert.ToInt32(cliccato.Name.Substring(11, 1));
-            folderBrowserDialog.SelectedPath=discoEFile(nCartella-1);
+            folderBrowserDialog.SelectedPath = Path.Combine(txtDischi[nCartella - 1].Text,
+                                                            txtCartelle[nCartella - 1].Text);
             DialogResult r = folderBrowserDialog.ShowDialog();
             if (r == System.Windows.Forms.DialogResult.OK)
             {
@@ -580,7 +581,7 @@ namespace LaunchAll
                 if (lstvw[nCartella - 1].Items[i].Checked)
                     try
                     {
-                        System.Diagnostics.Process.Start(nomeFile);
+                        ShellLauncher.Apri(nomeFile);
                     }
                     catch (Exception er)
                     {
@@ -638,7 +639,7 @@ namespace LaunchAll
             int nCartella = Convert.ToInt32(bottone.Name.Substring(11, 1));
             try
             {
-                System.Diagnostics.Process.Start(discoEFile(nCartella-1));
+                ShellLauncher.Apri(discoEFile(nCartella-1));
             }
             catch (Exception er)
             {
@@ -655,7 +656,7 @@ namespace LaunchAll
                                                 discoEFile(nCartella - 1) + "\\");
             try
             {
-                System.Diagnostics.Process.Start(nomeFile);
+                ShellLauncher.Apri(nomeFile);
             }
             catch (Exception er)
             {
@@ -679,7 +680,7 @@ namespace LaunchAll
                 {
                     try
                     {
-                        System.Diagnostics.Process.Start(txtDischi[i].Text + txtCartelle[i].Text + "\\" + robaDaAprire);
+                        ShellLauncher.Apri(txtDischi[i].Text + txtCartelle[i].Text + "\\" + robaDaAprire);
                         return;
                     }
                     catch (Exception er)
@@ -693,7 +694,7 @@ namespace LaunchAll
             {
                 try
                 {
-                    System.Diagnostics.Process.Start(robaDaAprire);
+                    ShellLauncher.Apri(robaDaAprire);
                 }
                 catch (Exception er)
                 {

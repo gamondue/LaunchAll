@@ -66,7 +66,7 @@ namespace LaunchAll
                 if (lstFiles.GetItemCheckState(i) == CheckState.Checked)
                     try
                     {
-                        System.Diagnostics.Process.Start(lstFiles.Items[i].ToString().Replace(".\\", pathStart + "\\"));
+                        ShellLauncher.Apri(lstFiles.Items[i].ToString().Replace(".\\", pathStart + "\\"));
                     }
                     catch (Exception er)
                     {
@@ -110,7 +110,7 @@ namespace LaunchAll
             CheckedListBox lista = (CheckedListBox)sender; 
             try
             {
-                System.Diagnostics.Process.Start(lista.SelectedItem.ToString().Replace(".\\", pathStart + "\\"));
+                ShellLauncher.Apri(lista.SelectedItem.ToString().Replace(".\\", pathStart + "\\"));
             }
             catch (Exception er)
             {

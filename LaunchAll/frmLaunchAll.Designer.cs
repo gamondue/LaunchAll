@@ -160,7 +160,7 @@
             btnApriTutti.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnApriTutti.BackColor = Color.FromArgb(0, 192, 0);
             btnApriTutti.ForeColor = Color.White;
-            btnApriTutti.Location = new Point(1011, 15);
+            btnApriTutti.Location = new Point(1007, 26);
             btnApriTutti.Margin = new Padding(4);
             btnApriTutti.Name = "btnApriTutti";
             btnApriTutti.Size = new Size(90, 32);
@@ -222,7 +222,7 @@
             // txtEdit
             // 
             txtEdit.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtEdit.Location = new Point(315, 82);
+            txtEdit.Location = new Point(313, 87);
             txtEdit.Margin = new Padding(4);
             txtEdit.Name = "txtEdit";
             txtEdit.ReadOnly = true;
@@ -909,7 +909,7 @@
             // 
             // txtDiscoNuovo
             // 
-            txtDiscoNuovo.Location = new Point(234, 82);
+            txtDiscoNuovo.Location = new Point(232, 87);
             txtDiscoNuovo.Margin = new Padding(4);
             txtDiscoNuovo.Name = "txtDiscoNuovo";
             txtDiscoNuovo.Size = new Size(75, 23);
@@ -920,10 +920,10 @@
             // 
             // btnCambiaDisco
             // 
-            btnCambiaDisco.Location = new Point(10, 79);
+            btnCambiaDisco.Location = new Point(10, 80);
             btnCambiaDisco.Margin = new Padding(4);
             btnCambiaDisco.Name = "btnCambiaDisco";
-            btnCambiaDisco.Size = new Size(102, 29);
+            btnCambiaDisco.Size = new Size(102, 34);
             btnCambiaDisco.TabIndex = 68;
             btnCambiaDisco.Text = "Cambia Disco";
             btnCambiaDisco.UseVisualStyleBackColor = true;
@@ -931,7 +931,7 @@
             // 
             // txtDiscoVecchio
             // 
-            txtDiscoVecchio.Location = new Point(144, 82);
+            txtDiscoVecchio.Location = new Point(142, 86);
             txtDiscoVecchio.Margin = new Padding(4);
             txtDiscoVecchio.Name = "txtDiscoVecchio";
             txtDiscoVecchio.Size = new Size(75, 23);
@@ -943,7 +943,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(119, 85);
+            label1.Location = new Point(117, 91);
             label1.Name = "label1";
             label1.Size = new Size(21, 15);
             label1.TabIndex = 70;
@@ -952,7 +952,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(220, 84);
+            label7.Location = new Point(218, 91);
             label7.Name = "label7";
             label7.Size = new Size(13, 15);
             label7.TabIndex = 71;
@@ -973,7 +973,7 @@
             grpFileConfigurazione.Controls.Add(btnCreaCartelle);
             grpFileConfigurazione.Location = new Point(10, 0);
             grpFileConfigurazione.Name = "grpFileConfigurazione";
-            grpFileConfigurazione.Size = new Size(987, 75);
+            grpFileConfigurazione.Size = new Size(987, 80);
             grpFileConfigurazione.TabIndex = 0;
             grpFileConfigurazione.TabStop = false;
             grpFileConfigurazione.Text = "Operazioni sui file di configurazione del programma";
